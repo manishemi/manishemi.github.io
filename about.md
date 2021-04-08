@@ -2,14 +2,19 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+I'm Mani shemiranifar
 
-### More Information
+I born in Iran-Tehran at 04/04/2004
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm interested in ML and coding 
 
-### Contact me
+Sometimes I post something here(Mostly about ML and coding)
 
-[email@domain.com](mailto:email@domain.com)
+### How to rach me:
+
+My Email : [m.shemiranifar@gmail.com](mailto:m.shemiranifar@gmail.com)
+
+My github page : [manishemiranifar](https://github.com/manishemiranifar)

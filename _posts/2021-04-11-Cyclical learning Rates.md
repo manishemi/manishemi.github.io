@@ -12,9 +12,9 @@ This curve shows the result of CLR method using on CIFAR-10
 
 ![_config.yml]({{ site.baseurl }}/images/CLR/2.PNG)
 
-## Implementation
+# Implementation
 
-# Provided by article
+## Provided by article
 
 ![_config.yml]({{ site.baseurl }}/images/CLR/3.PNG)
 

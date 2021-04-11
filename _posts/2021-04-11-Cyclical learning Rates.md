@@ -1,12 +1,6 @@
 ---
 published: true
 ---
-# Resources:
-
-[Cyclical learning Rates Article](https://arxiv.org/abs/1506.01186)
-
-[Flax](https://flax.readthedocs.io/en/latest/howtos/lr_schedule.html)
-
 The cyclical learning rate(CLR) is a method for setting the learing rates, which practically find the best values and schedule for the global learning rates.
 
 This method sets minimum and maximum boundaries and the learning rate cyclically varies between these.
@@ -55,3 +49,10 @@ step_per_cycle --> Part of step_per_epochs(step_per_epochs is the output of trai
     
 step --> The output of of optimizer.state.step for more information 				
     [see](https://flax.readthedocs.io/en/latest/howtos/lr_schedule.html)
+    
+    
+# Resources:
+
+[Cyclical learning Rates Article](https://arxiv.org/abs/1506.01186)
+
+[Flax](https://flax.readthedocs.io/en/latest/howtos/lr_schedule.html)

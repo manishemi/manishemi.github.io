@@ -15,7 +15,7 @@ This curve shows the result of CLR method using on CIFAR-10
 ## Implementation
 
 # Provided by article
-For the implementation we should have some parameters of our model:
+
 ![_config.yml]({{ site.baseurl }}/images/CLR/3.PNG)
 
     1 - epochCounter --> the number of epoch training 

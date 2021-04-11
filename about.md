@@ -13,8 +13,3 @@ I'm interested in ML and coding
 
 Sometimes I post something here(Mostly about ML and coding)
 
-### How to rach me:
-
-My Email : [m.shemiranifar@gmail.com](mailto:m.shemiranifar@gmail.com)
-
-My github page : [manishemiranifar](https://github.com/manishemiranifar)

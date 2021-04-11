@@ -17,9 +17,10 @@ This curve shows the result of CLR method using on CIFAR-10
 # Provided by article
 For the implementation we should have some parameters of our model:
 ![_config.yml]({{ site.baseurl }}/images/CLR/3.PNG)
-    1 - epochCounter --> Which is the number of epoch training 
 
-    2 - stepsize --> Which is Half of the cycle lenght
+    1 - epochCounter --> the number of epoch training 
+
+    2 - stepsize --> Half of the cycle lenght
 
 	3 - max_lr --> Maximum learning rate schedule
 	

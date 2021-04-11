@@ -18,7 +18,7 @@ This curve shows the result of CLR method using on CIFAR-10
 
 ![_config.yml]({{ site.baseurl }}/images/CLR/3.PNG)
 
-    1 - epochCounter --> the number of epoch training 
+    1 - epochCounter --> Number of epochs of training 
 
     2 - stepsize --> Half of the cycle lenght
 
@@ -29,7 +29,7 @@ This curve shows the result of CLR method using on CIFAR-10
     
 # Implementation with python
 
-'''python
+```python
 
 def create_traingular_schedule(lr_min, lr_max, step_per_cycle):
 	top = (step_per_cycle + 1) // 2
@@ -41,6 +41,6 @@ def create_traingular_schedule(lr_min, lr_max, step_per_cycle):
             lr = lr_max - ((cycle_step - top) / top) * (lr_max - lr_min)
         return lr
         return learning_rate_fn
-'''
+```
 
 Parameters are as same as acticle code

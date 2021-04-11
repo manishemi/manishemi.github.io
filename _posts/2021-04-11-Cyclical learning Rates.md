@@ -40,7 +40,7 @@ def create_traingular_schedule(lr_min, lr_max, step_per_cycle):
         else:
             lr = lr_max - ((cycle_step - top) / top) * (lr_max - lr_min)
         return lr
-        return learning_rate_fn
+    return learning_rate_fn
 ```
 
-Parameters are as same as acticle code
+Parameters are as same as the article's code

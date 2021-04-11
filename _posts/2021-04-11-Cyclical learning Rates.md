@@ -12,3 +12,18 @@ This curve shows the result of CLR method using on CIFAR-10
 
 ![_config.yml]({{ site.baseurl }}/images/CLR/2.PNG)
 
+##Implementation
+
+#Provided by article
+For the implementation we should have some parameters of our model:
+
+    1 - epochCounter --> Which is the number of epoch training 
+
+    2 - stepsize --> Which is Half of the cycle lenght
+
+	3 - max_lr --> Maximum learning rate schedule
+	
+    4 - min_lr --> Minimum laerning rate schedule
+
+![_config.yml]({{ site.baseurl }}/images/CLR/3.PNG)
+

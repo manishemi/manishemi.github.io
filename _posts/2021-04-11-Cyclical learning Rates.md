@@ -12,9 +12,9 @@ This curve shows the result of CLR method using on CIFAR-10
 
 ![_config.yml]({{ site.baseurl }}/images/CLR/2.PNG)
 
-# Implementation
+## Implementation
 
-## Provided by article
+# Provided by article
 
 ![_config.yml]({{ site.baseurl }}/images/CLR/3.PNG)
 
@@ -25,6 +25,22 @@ This curve shows the result of CLR method using on CIFAR-10
 	3 - max_lr --> Maximum learning rate schedule
 	
     4 - min_lr --> Minimum laerning rate schedule
+    
+    
+# Implementation with python
 
+'''python
 
+def create_traingular_schedule(lr_min, lr_max, step_per_cycle):
+	top = (step_per_cycle + 1) // 2
+    def learning_rate_fn(step):
+    	cycle_step = step % step_per_cycle
+        if cycle_step < top:
+        	lr = lr_min + (cycle_step / top) * (lr_max - lr_min)
+        else:
+            lr = lr_max - ((cycle_step - top) / top) * (lr_max - lr_min)
+        return lr
+        return learning_rate_fn
+'''
 
+Parameters are as same as acticle code

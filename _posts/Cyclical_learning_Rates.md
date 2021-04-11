@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cylical Learning Rate
+title: Cyclical Learning Rate(CLR)
 published: true
 ---
 

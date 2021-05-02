@@ -45,14 +45,14 @@ def create_traingular_schedule(lr_min, lr_max, step_per_cycle):
 
 Parameters:
 	
-step_per_cycle --> Part of step_per_epochs(step_per_epochs is the output of training data divided by 		batch size) 
+step_per_cycle --> Part of step_per_epochs(step_per_epochs is the output of training data length divided by 		batch size) 
     
-step --> The output of of optimizer.state.step for more information 				
-    [see](https://flax.readthedocs.io/en/latest/howtos/lr_schedule.html)
+step --> The output of of optimizer.state.step for more information click				
+    [here](https://flax.readthedocs.io/en/latest/howtos/lr_schedule.html)
     
     
-# Resources:
+# References:
 
-[Cyclical learning Rates Article](https://arxiv.org/abs/1506.01186)
+[Cyclical learning Rate Article](https://arxiv.org/abs/1506.01186)
 
 [Flax](https://flax.readthedocs.io/en/latest/howtos/lr_schedule.html)

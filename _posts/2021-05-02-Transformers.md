@@ -28,5 +28,15 @@ The encoder is composed of a stack of N identical layers. Each layer has two sub
 one is a multi-head self-attention mechanism and the second one is a fully connected feed-forward network.
 In addition after each layer, we have a layer normalization which normalizes the output of the previous layer. In another word, the output of each sub-layer is LayerNorm(x + Sublayer(x)) where Sunblayer(x) is a function implemented by the sub-layer itself (for instance: multi-head attention or feed-forward network)
 
+Normalization:
+
+|![_config.yml]({{ site.baseurl }}/images/Transformers/Model_Architecture.PNG)|
+|:--:| 
+| *Figure 2 : Normalization Formula|)|
+
+x = input
+μ = mean of x
+σ = standard deviation of x 
+
 #### Decoder: 
-The decoder also is composed of a stack of N identical layers. It has two sub-layer in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, the decoder has layer normalization. 
+The decoder also is composed of a stack of N identical layers. It has two sub-layer in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, the decoder has layer normalization. In the third sub-layer, we have a different form from another attention mechanism which is the masking method, it ensures that prediction for position i can depend on the known outputs at positions less than i

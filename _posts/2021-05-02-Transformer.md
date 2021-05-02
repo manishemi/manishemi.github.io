@@ -65,7 +65,11 @@ for scaled dot product attention implement we compute dot product with query wit
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Attention_Formula.PNG)|
 
+Multi Head Attention:
 
+Multi head attention allows the model to jointly attend to information from diffrent representation
+
+|![_config.yml]({{ site.baseurl }}/images/Transformers/Multi_Head_Attention_Formula.PNG)|
 
 
 

@@ -26,7 +26,8 @@ some operation
 #### Encoder:
 The encoder is composed of a stack of N identical layers. Each layer has two sub-layer, 
 one is a multi-head self-attention mechanism and the second one is a fully connected feed-forward network.
-In addition after each layer, we have a layer normalization which normalizes the output of the previous layer. In another word, the output of each sub-layer is LayerNorm(x + Sublayer(x)) where Sunblayer(x) is a function implemented by the sub-layer itself (for instance: multi-head attention or feed-forward network)
+In addition after each layer, we have a layer normalization which normalizes the output of the previous layer.
+In another word, the output of each sub-layer is LayerNorm(x + Sublayer(x)) where Sunblayer(x) is a function implemented by the sub-layer itself (for instance: multi-head attention or feed-forward network)
 
 Normalization:
 
@@ -43,9 +44,13 @@ x = Input
 z = Normalized output
 
 #### Decoder: 
-The decoder also is composed of a stack of N identical layers. It has two sub-layer in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, the decoder has layer normalization. In the third sub-layer, we have a different form from another attention mechanism which is the masking method, it ensures that prediction for position i can depend on the known outputs at positions less than i
+The decoder also is composed of a stack of N identical layers. It has two sub-layer in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, the decoder has layer normalization.
+In the third sub-layer, we have a different form from another attention mechanism which is the masking method, it ensures that prediction for position i can depend on the known outputs at positions less than i
 
-#### Attention
+#### Attention:
+An attention function can be described as mapping query and a set of key-value pairs to an output,
+where the query, keys, values, and output are all vectors.
+The output computed as a weighted sum of the values, where the weight assigned to each value (how much attention should pay for this value)
 
 
 

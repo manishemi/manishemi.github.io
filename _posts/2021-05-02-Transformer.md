@@ -60,8 +60,8 @@ Scaled Dot Product Attention:
 
 
 The inputs consist of queries and keys with dimension dk and values with dimension dv.
-for scaled dot product attention implement we compute dot product with query with all keys divide by √
-dk and then apply softmax function to obtain weights 
+for scaled dot product attention implement we compute dot product with query with all keys divide by
+√dk and then apply softmax function to obtain weights 
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Attention_Formula.PNG)|
 

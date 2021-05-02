@@ -30,12 +30,14 @@ In addition after each layer, we have a layer normalization which normalizes the
 
 Normalization:
 
-|![_config.yml]({{ site.baseurl }}/images/Transformers/Model_Architecture.PNG)|
+|![_config.yml]({{ site.baseurl }}/images/Transformers/Normalization_formula.PNG)|
 |:--:| 
 | *Figure 2 : Normalization Formula|)|
 
 x = input
+
 μ = mean of x
+
 σ = standard deviation of x 
 
 #### Decoder: 

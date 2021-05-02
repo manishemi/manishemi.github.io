@@ -52,6 +52,12 @@ An attention function can be described as mapping query and a set of key-value p
 where the query, keys, values, and output are all vectors.
 The output computed as a weighted sum of the values, where the weight assigned to each value (how much attention should pay for this value)
 
+Scaled Dot Product Attention:
+
+|![_config.yml]({{ site.baseurl }}/images/Transformers/Scaled_Dot_Product_Attention.PNG)|
+|:--:| 
+| Figure 2 : Scaled Dot Product Attention|
+
 
 
 

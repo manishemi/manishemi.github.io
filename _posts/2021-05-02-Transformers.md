@@ -15,7 +15,7 @@ convolution
 
 ### Model Architecture
 Generally, Transformers made with encoder-decoder architecture but inside the encoder and decoder we have
-many operations
+some operation
 
 
 ![_config.yml]({{ site.baseurl }}/images/Transformers/Model_Architecture.PNG)

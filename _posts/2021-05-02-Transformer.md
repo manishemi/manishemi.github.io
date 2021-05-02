@@ -65,6 +65,18 @@ for scaled dot product attention implement we compute dot product with query wit
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Attention_Formula.PNG)|
 
+Why √dk?
+
+Provided by article:
+
+We suspect that for large values of
+dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has
+extremely small gradients . To counteract this effect, we scale the dot products by (1 / √dk)
+
+Assume that the components of q and k are independent random
+variables with mean 0 and variance 1. Then their dot product has mean 0 and variance dk
+
+
 Multi Head Attention:
 
 Multi head attention allows the model to jointly attend to information from diffrent representation

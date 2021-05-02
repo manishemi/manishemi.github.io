@@ -18,6 +18,7 @@ Generally, Transformers made with encoder-decoder architecture but inside the en
 some operation
 
 
-![_config.yml]({{ site.baseurl }}/images/Transformers/Model_Architecture.PNG)
-
+|![_config.yml]({{ site.baseurl }}/images/Transformers/Model_Architecture.PNG)|
+|:--:| 
+| *Figure 1* |
 

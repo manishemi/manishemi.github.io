@@ -71,11 +71,11 @@ Multi head attention allows the model to jointly attend to information from diff
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Multi_Head_Attention_Formula.PNG)|
 
+#### Feed-Forward Networks
 
+The Feed-Forward networks consist of two fully-connected layers with ReLU activation in between.
 
-
-
-
+|![_config.yml]({{ site.baseurl }}/images/Transformers/Feed_Forward.PNG)|
 
 
 

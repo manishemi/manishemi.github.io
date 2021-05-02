@@ -6,7 +6,7 @@ If you have ever seen the transformers movie series you should probably saw, how
 The best performing models also connect the encoder and decoder through an attention mechanism. 
 Also,  the Transformers based solely on attention mechanism and encoder-decoder architecture
 
-### Background
+### **Background**
 
 Self-attention(sometimes called intra-attention) is an attention mechanism relating different position of single sequence in order to compute a representation of the sequence
 
@@ -23,7 +23,7 @@ some operation
 | *Figure 1 : Tranformer - Model Architecture* |
 
 
-#### Encoder:
+#### **Encoder**:
 The encoder is composed of a stack of N identical layers. Each layer has two sub-layer, 
 one is a multi-head self-attention mechanism and the second one is a fully connected feed-forward network.
 In addition after each layer, we have a layer normalization which normalizes the output of the previous layer.
@@ -43,13 +43,13 @@ x = Input
 
 z = Normalized output
 
-#### Decoder: 
+#### **Decoder**: 
 The decoder also is composed of a stack of N identical layers. It has two sub-layer in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, the decoder has layer normalization.
 In the third sub-layer, we have a different form from another attention mechanism which is the masking method, it ensures that prediction for position i can depend on the known outputs at positions less than i
 
-#### Attention:
+#### **Attention**:
 An attention function can be described as mapping query and a set of key-value pairs to an output,
-where the query, keys, values, and output are all vectors.
+where the query, key****s, values, and output are all vectors.
 The output computed as a weighted sum of the values, where the weight assigned to each value (how much attention should pay for this value)
 
 

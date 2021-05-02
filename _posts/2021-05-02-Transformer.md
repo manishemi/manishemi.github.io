@@ -81,7 +81,7 @@ Code:
 
 ```python
 
-def point_wise_feed_forward_network(d_model, dff):
+def feed_forward_network(d_model, dff):
     return tf.keras.Sequential(
         [
             tf.keras.layers.Dense(dff, activation="relu"),

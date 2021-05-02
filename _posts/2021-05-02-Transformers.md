@@ -38,7 +38,7 @@ x = Input
 
 μ = Mean of x
 
-σ = Standard deviation of x ---> sqrt(sum((x_i[j] - mean_i) ** 2 for j in range(k)) / k)
+σ = Standard deviation of x ---> sqrt(sum((x[i] - mean) ** 2 for i in range(len(x)) / len(x))
 
 z = Normalized output
 

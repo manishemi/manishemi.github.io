@@ -23,8 +23,10 @@ some operation
 | *Figure 1 : Tranformer - Model Architecture* |
 
 
-Encoder: The encoder is composed of a stack of N identical layers. Each layer has two sub-layer, 
+#### Encoder:
+The encoder is composed of a stack of N identical layers. Each layer has two sub-layer, 
 one is a multi-head self-attention mechanism and the second one is a fully connected feed-forward network.
 In addition after each layer, we have a layer normalization which normalizes the output of the previous layer. In another word, the output of each sub-layer is LayerNorm(x + Sublayer(x)) where Sunblayer(x) is a function implemented by the sub-layer itself (for instance: multi-head attention or feed-forward network)
 
-Decoder: 
+#### Decoder: 
+The decoder also is composed of a stack of N indentical layers. It has two sub-layer in each encoder layer, the decoder insert a third sub-layer, which performs multi-head attention over the output of the encoder stack

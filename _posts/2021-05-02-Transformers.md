@@ -6,7 +6,7 @@ If you have ever seen the transformers movie series you should probably saw, how
 The best performing models also connect the encoder and decoder through an attention mechanism. 
 Also,  the Transformers based solely on attention mechanism and encoder-decoder architecture
 
-### background
+### <span style="color:blue">background</span>
 
 Self-attention(sometimes called intra-ttention) is an attention mechanism relating different position of single sequence in order to compute a representation of the sequence
 

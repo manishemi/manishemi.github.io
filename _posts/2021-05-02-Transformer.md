@@ -83,6 +83,7 @@ They've implemented Transformer with TensorFlow,  I suggest implement a transfor
 
 # References:
 [Trasformers Article](https://arxiv.org/abs/1706.03762)
+
 [Tensorflow](https://www.tensorflow.org/tutorials/text/transformer)
 
 

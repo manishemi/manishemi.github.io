@@ -14,5 +14,10 @@ Tranformers is the first transduction model relying entirely on self-attention w
 convolution 
 
 ### Model Architecture
+Generally, Transformers made with encoder_decoder architecture but inside the encoder and decoder we have
+many operations
+
+
+![_config.yml]({{ site.baseurl }}/images/Transformers/Model_Architecture.PNG)
 
 

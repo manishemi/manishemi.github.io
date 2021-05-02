@@ -45,7 +45,7 @@ z = Normalized output
 
 #### **Decoder**: 
 The decoder also is composed of a stack of N identical layers. It has two sub-layer in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, the decoder has layer normalization.
-In the third sub-layer, we have a different form from another attention mechanism which is the masking method, it ensures that prediction for position i can depend on the known outputs at positions less than i
+In the third sub-layer, we have a different form from another attention mechanism which is the masking method, it ensures that prediction for position i can depend on the known outputs at positions less than i.
 
 #### **Attention**:
 An attention function can be described as mapping query and a set of key-value pairs to an output,
@@ -59,7 +59,13 @@ Scaled Dot Product Attention:
 | Figure 2 : Scaled Dot Product Attention|
 
 
+The inputs consist of queries and keys with dimension dk and values with dimension dv.
+for scaled dot product attention implement we compute dot product with query with all keys divide by √
+dk and then apply softmax function to obtain weights 
 
+|![_config.yml]({{ site.baseurl }}/images/Transformers/Attention_Formula.PNG)|
+|:--:| 
+| Figure 2 : Scaled Dot Product Attention Formula|
 
 
 

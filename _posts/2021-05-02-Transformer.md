@@ -52,7 +52,7 @@ An attention function can be described as mapping query and a set of key-value p
 where the query, keys, values, and output are all vectors.
 The output computed as a weighted sum of the values, where the weight assigned to each value (how much attention should pay for this value)
 
-Scaled Dot Product Attention:
+#### Scaled Dot Product Attention:
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Scaled_Dot_Product_Attention.PNG)|
 |:--:| 
@@ -67,7 +67,7 @@ for scaled dot product attention implement we compute dot product with query wit
 
 Why √dk?
 
-Provided by article:
+#### Provided by article:
 
 We suspect that for large values of
 dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has
@@ -77,7 +77,7 @@ Assume that the components of q and k are independent random
 variables with mean 0 and variance 1. Then their dot product has mean 0 and variance dk
 
 
-Multi Head Attention:
+#### Multi Head Attention:
 
 Multi head attention allows the model to jointly attend to information from diffrent representation
 

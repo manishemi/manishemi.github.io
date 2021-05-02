@@ -32,7 +32,7 @@ Normalization:
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Normalization_formula.PNG)|
 |:--:| 
-| *Figure 2 : Normalization Formula|)|
+| Figure 2 : Normalization Formula|
 
 x = input
 

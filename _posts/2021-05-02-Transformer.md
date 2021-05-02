@@ -13,7 +13,7 @@ Self-attention(sometimes called intra-attention) is an attention mechanism relat
 Tranformer is the first transduction model relying entirely on self-attention without using RNNs or 
 convolution 
 
-### Model Architecture
+### **Model Architecture**
 Generally, Transformer mades with encoder-decoder architecture but inside the encoder and decoder we have
 some operation
 

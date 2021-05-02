@@ -23,5 +23,5 @@ some operation
 | *Figure 1 : Tranformer - Model Architecture* |
 
 
-Encoder: The encoder composed of a stack of N indenticalm layers. Each layer has two sub-layer, 
-one is multi-head self-attention mechanism and the second one is fully connected feed-forward network.
+Encoder: The encoder is composed of a stack of N identical layers. Each layer has two sub-layer, 
+one is a multi-head self-attention mechanism and the second one is a fully connected feed-forward network.

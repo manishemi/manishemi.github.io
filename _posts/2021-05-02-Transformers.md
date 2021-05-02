@@ -25,4 +25,4 @@ some operation
 
 Encoder: The encoder is composed of a stack of N identical layers. Each layer has two sub-layer, 
 one is a multi-head self-attention mechanism and the second one is a fully connected feed-forward network.
-In addition after each layer, we have a layer normalization which normalizes the output of the previous layer. In another word, the output of each sub-layer is LayerNorm(x + Sublayer(x)) where Sunblayer is a function implemented by the sub-layer itself(for instance: multi-head attention or feed-forward network)
+In addition after each layer, we have a layer normalization which normalizes the output of the previous layer. In another word, the output of each sub-layer is [### LayerNorm(x + Sublayer(x)) ###] where Sunblayer is a function implemented by the sub-layer itself(for instance: multi-head attention or feed-forward network)

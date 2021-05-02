@@ -49,7 +49,7 @@ In the third sub-layer, we have a different form from another attention mechanis
 
 #### **Attention**:
 An attention function can be described as mapping query and a set of key-value pairs to an output,
-where the query, key****s, values, and output are all vectors.
+where the query, keys, values, and output are all vectors.
 The output computed as a weighted sum of the values, where the weight assigned to each value (how much attention should pay for this value)
 
 

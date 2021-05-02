@@ -8,7 +8,7 @@ Also,  the Transformers based solely on attention mechanism and encoder-decoder 
 
 ### Background
 
-Self-attention(sometimes called intra-ttention) is an attention mechanism relating different position of single sequence in order to compute a representation of the sequence
+Self-attention(sometimes called intra-attention) is an attention mechanism relating different position of single sequence in order to compute a representation of the sequence
 
 Tranformer is the first transduction model relying entirely on self-attention without using RNNs or 
 convolution 
@@ -26,3 +26,5 @@ some operation
 Encoder: The encoder is composed of a stack of N identical layers. Each layer has two sub-layer, 
 one is a multi-head self-attention mechanism and the second one is a fully connected feed-forward network.
 In addition after each layer, we have a layer normalization which normalizes the output of the previous layer. In another word, the output of each sub-layer is LayerNorm(x + Sublayer(x)) where Sunblayer(x) is a function implemented by the sub-layer itself (for instance: multi-head attention or feed-forward network)
+
+Decoder: 

@@ -34,11 +34,13 @@ Normalization:
 |:--:| 
 | Figure 2 : Normalization Formula|
 
-x = input
+x = Input
 
-μ = mean of x
+μ = Mean of x
 
-σ = standard deviation of x 
+σ = Standard deviation of x 
+
+z = Normalized output
 
 #### Decoder: 
 The decoder also is composed of a stack of N identical layers. It has two sub-layer in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, the decoder has layer normalization. In the third sub-layer, we have a different form from another attention mechanism which is the masking method, it ensures that prediction for position i can depend on the known outputs at positions less than i

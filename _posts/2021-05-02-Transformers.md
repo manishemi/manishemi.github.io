@@ -8,7 +8,7 @@ Also,  the Transformers based solely on attention mechanism and encoder-decoder 
 
 ## Background
 
-Self-attention(sometimes called intra_attention) is an attention mechanism relating different position of single sequence in order to compute a representation of the sequence
+Self-attention(sometimes called intra-ttention) is an attention mechanism relating different position of single sequence in order to compute a representation of the sequence
 
 Tranformers is the first transduction model relying entirely on self-attention without using RNNs or 
 convolution 

@@ -32,7 +32,7 @@ This curve shows the result of CLR method using on CIFAR-10
 ```python
 
 def create_traingular_schedule(lr_min, lr_max, step_per_cycle):
-	top = (step_per_cycle + 1) // 2
+top = (step_per_cycle + 1) // 2
     def learning_rate_fn(step):
     	cycle_step = step % step_per_cycle
         if cycle_step < top:

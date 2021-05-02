@@ -64,8 +64,7 @@ for scaled dot product attention implement we compute dot product with query wit
 dk and then apply softmax function to obtain weights 
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Attention_Formula.PNG)|
-|:--:| 
-| Figure 2 : Scaled Dot Product Attention Formula|
+
 
 
 

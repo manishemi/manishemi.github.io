@@ -77,7 +77,18 @@ The Feed-Forward networks consist of two fully-connected layers with ReLU activa
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Feed_Forward.PNG)|
 
+Code:
 
+```python
+
+def point_wise_feed_forward_network(d_model, dff):
+    return tf.keras.Sequential(
+        [
+            tf.keras.layers.Dense(dff, activation="relu"),
+            tf.keras.layers.Dense(d_model)
+        ]
+    )
+``` 
 
 
 

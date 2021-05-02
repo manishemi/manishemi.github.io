@@ -77,13 +77,13 @@ Assume that the components of q and k are independent random
 variables with mean 0 and variance 1. Then their dot product has mean 0 and variance dk
 
 
-#### Multi Head Attention:
+#### _**Multi Head Attention**_:
 
 Multi head attention allows the model to jointly attend to information from diffrent representation
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Multi_Head_Attention_Formula.PNG)|
 
-#### Feed-Forward Networks
+#### _**Feed-Forward Networks**_:
 
 The Feed-Forward networks consist of two fully-connected layers with ReLU activation in between.
 
@@ -93,7 +93,7 @@ For implementation you can also visit [Transformer model for language understand
 They've implemented Transformer with TensorFlow,  I suggest implement a transformer with python for a better understanding of the concept
 
 
-# References:
+# _**References**_:
 [Trasformer Article](https://arxiv.org/abs/1706.03762)
 
 [Tensorflow](https://www.tensorflow.org/tutorials/text/transformer)

@@ -101,7 +101,7 @@ The positional encoding vector is added to the embedding vector.
 
 pos = Positional
 
-i = Dimension
+i = Range dimension of model
 
 d_model = Dimension of model
 

@@ -79,6 +79,10 @@ variables with mean 0 and variance 1. Then their dot product has mean 0 and vari
 
 #### _**Multi Head Attention**_:
 
+|![_config.yml]({{ site.baseurl }}/images/Transformers/Multi_Head_Attention_Picture.PNG)|
+|:--:| 
+| Figure 3 : Multi Head Attention|
+
 Multi head attention allows the model to jointly attend to information from diffrent representation
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Multi_Head_Attention_Formula.PNG)|

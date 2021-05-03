@@ -90,7 +90,7 @@ The Feed-Forward networks consist of two fully-connected layers with ReLU activa
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Feed_Forward.PNG)|
 
 For implementation you can also visit [Transformer model for language understanding](https://www.tensorflow.org/tutorials/text/transformer)
-They've implemented Transformer with TensorFlow,  I suggest implementing a transformer with python for a better understanding of the concept
+They've implemented Transformer with TensorFlow, I suggest implementing a transformer with python for a better understanding of the concept
 
 #### _**Positional Encoding**_:
 

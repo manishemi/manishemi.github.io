@@ -73,7 +73,7 @@ We suspect that for large values of
 dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has
 extremely small gradients . To counteract this effect, we scale the dot products by (1 / √dk)
 
-Assume that the components of q and k are independent random
+To illustrate why the dot products get large, assume that the components of q and k are independent random
 variables with mean 0 and variance 1. Then their dot product has mean 0 and variance dk
 
 
@@ -90,24 +90,10 @@ The Feed-Forward networks consist of two fully-connected layers with ReLU activa
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Feed_Forward.PNG)|
 
 For implementation you can also visit [Transformer model for language understanding](https://www.tensorflow.org/tutorials/text/transformer)
-They've implemented Transformer with TensorFlow,  I suggest implement a transformer with python for a better understanding of the concept
+They've implemented Transformer with TensorFlow,  I suggest implementing a transformer with python for a better understanding of the concept
 
 
 # _**References**_:
 [Trasformer Article](https://arxiv.org/abs/1706.03762)
 
 [Tensorflow](https://www.tensorflow.org/tutorials/text/transformer)
-
-
-
-
-
-
-
-
-
-
-
-
-
-

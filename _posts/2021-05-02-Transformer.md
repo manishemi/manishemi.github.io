@@ -93,9 +93,6 @@ The Feed-Forward networks consist of two fully-connected layers with ReLU activa
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Feed_Forward.PNG)|
 
-For implementation you can also visit [Transformer model for language understanding](https://www.tensorflow.org/tutorials/text/transformer)
-They've implemented Transformer with TensorFlow, I suggest implementing a transformer with python for a better understanding of the concept
-
 #### _**Positional Encoding**_:
 
 Since this model doesn't contain any recurrence or convolution, positional encoding is added to give the model some information of the relative positions of the words in the sentence.
@@ -108,6 +105,10 @@ pos = Positional
 i = Range dimension of model
 
 d_model = Dimension of model
+
+
+For implementation you can also visit [Transformer model for language understanding](https://www.tensorflow.org/tutorials/text/transformer)
+They've implemented Transformer with TensorFlow, I suggest implementing a transformer with python for a better understanding of the concept
 
 # _**References**_:
 

@@ -8,5 +8,5 @@ Vanishing gradient problem referring that the amount of gradient is gradually re
 
 |![_config.yml]({{ site.baseurl }}/images/V-E-Gradient/Vanishing_Gradient.png)|
 |:--:| 
-| *Figure 1 : Vanishing Gradient |
+| Figure 1 : Vanishing Gradient |
 

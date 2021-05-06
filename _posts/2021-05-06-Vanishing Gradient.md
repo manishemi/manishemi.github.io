@@ -9,7 +9,7 @@ Vanishing gradient problem referring that the amount of gradient is gradually re
 |:--:| 
 | Figure 1 : Vanishing Gradient |
 
-### What is the cause of vanishing gradient in the recurrence neural networks?
+### What is the cause of the vanishing gradient in the recurrence neural networks?
 
 Assume that we have a sentence like "I am interested in ML and AI because one day I will create a machine like a human" ( just for example :) ) that has 19 words. In order that, our model can predict the last word
 (human) correctly, it should have information about the first word(I). We call this kind of dependencies,

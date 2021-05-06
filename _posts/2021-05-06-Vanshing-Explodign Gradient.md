@@ -6,5 +6,7 @@ Vanishing gradient is a problem that happens when the training method in Neural 
 
 Vanishing gradient problem referring that the amount of gradient is gradually reduced when the gradient goes to the beginning of the neural network.
 
-
+|![_config.yml]({{ site.baseurl }}/images/V-E-Gradient/Vanishing_Gradient.png)|
+|:--:| 
+| *Figure 1 : Vanishing Gradient |
 

@@ -15,7 +15,7 @@ Assume that we have a sentence like "I am interested in ML, AI and one day I wil
 (human) correctly that it has information about the first word(I). We call this kind of dependencies,
 Long-Term Dependencies.
 
-In practice, if we have more distance between our first and last word, we have a vanishing gradient problem. Because the gradients come from the end of layers, they should pass many multiplications until they arrive at the beginning layers and that leads to having small gradients (less than 1).
+In practice, if we have more distance between our first and last words, then we have a vanishing gradient problem. Because the gradients come from the end of layers, they should pass many multiplications until they arrive at the beginning layers and that leads to having small gradients (less than 1).
 
 ### How we can solve this problem?
 

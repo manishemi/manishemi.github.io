@@ -11,11 +11,11 @@ Vanishing gradient problem referring that the amount of gradient is gradually re
 
 ### What is the cause of the vanishing gradient in the recurrence neural networks?
 
-Assume that we have a sentence like "I am interested in ML, AI and one day I will create a machine like a human" ( just for example :) ) that has 17 words. In order that, our model can predict the last word
-(human) correctly, it should have information about the first word(I). We call this kind of dependencies,
+Assume that we have a sentence like "I am interested in ML, AI and one day I will create a machine like a human" ( just for example :) ) that has 17 words. When our model can predict the last word
+(human) correctly that it has information about the first word(I). We call this kind of dependencies,
 Long-Term Dependencies.
 
-In practice, if we have more distance between our first and last word, we have a vanishing gradient problem. Because the gradients come from the end of layers, they should pass many multiplications until they arrive at the beginning and that leads to having small gradients (less than 1).
+In practice, if we have more distance between our first and last word, we have a vanishing gradient problem. Because the gradients come from the end of layers, they should pass many multiplications until they arrive at the beginning layers and that leads to having small gradients (less than 1).
 
 ### How we can solve this problem?
 

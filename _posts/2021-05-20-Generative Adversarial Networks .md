@@ -8,6 +8,7 @@ Genrative Adversarial network(GAN) is a Nerual network model that generate sampl
 GANs have two base part:
 
 1 - Generative network
+
 2 - Discriminator network
 
 |![_config.yml]({{ site.baseurl }}/images/GANs/GAN figure.png)|

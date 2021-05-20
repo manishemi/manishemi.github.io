@@ -12,4 +12,4 @@ GANs have two base part:
 
 |![_config.yml]({{ site.baseurl }}/images/GANs/GAN figure.png)|
 |:--:| 
-| Figure 1 : Vanishing Gradient |
+| Figure 1 : GAN Architecture |

@@ -124,7 +124,7 @@ def show_images(gen):
     fig.show()
 
 
-train(20000, 128, 1000)
+train(10000, 128, 1000)
 
 ```
 

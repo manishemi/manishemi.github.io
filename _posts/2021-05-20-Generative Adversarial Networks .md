@@ -16,6 +16,6 @@ GANs have two base part:
 | Figure 1 : GAN Architecture |
 
 
-Note that: Generative and Discriminator are based on Neural networks
+Note that: Generator and Discriminator are based on Neural networks
 
 Training task is based on [Backpropagation algorithm](https://en.wikipedia.org/wiki/Backpropagation) and the loss from the Discriminator network(cost function)

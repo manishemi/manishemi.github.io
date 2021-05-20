@@ -151,4 +151,4 @@ train(10000, 128, 1000)
 | Figure 4 : Iteration 10,000 |
 | 10000 D loss: 0.335380 , acc: 85.94, G loss: 3.404595 |
 
-As we expeted, the loss from discriminator is increasing by every itertion.
+As we expeted, the loss from discriminator is increasing by every iteration.

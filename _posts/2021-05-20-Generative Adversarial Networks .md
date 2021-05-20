@@ -128,3 +128,23 @@ train(20000, 128, 1000)
 
 ```
 
+|![_config.yml]({{ site.baseurl }}/images/GANs/step1000.JPG)|
+|:--:| 
+| Figure 1 : Iteration 1000 |
+
+
+|![_config.yml]({{ site.baseurl }}/images/GANs/step3000.JPG)|
+|:--:| 
+| Figure 1 : Iteration 3000 |
+
+
+
+
+
+
+
+
+
+
+
+

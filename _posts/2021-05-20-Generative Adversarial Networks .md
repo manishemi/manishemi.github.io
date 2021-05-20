@@ -139,7 +139,7 @@ train(20000, 128, 1000)
 | 3000 D loss: 0.126480 , acc: 94.92, Gloss: 5.473635 |
 
 
-|![_config.yml]({{ site.baseurl }}/images/GANs/step10000.JPGG)|
+|![_config.yml]({{ site.baseurl }}/images/GANs/step10000.JPG)|
 |:--:| 
 | Figure 4 : Iteration 10,000 |
 | 10000 D loss: 0.335380 , acc: 85.94, G loss: 3.404595 |

@@ -19,3 +19,6 @@ GANs have two base part:
 Note that: Generator and Discriminator are based on Neural networks
 
 Training task is based on [Backpropagation algorithm](https://en.wikipedia.org/wiki/Backpropagation) and the loss from the Discriminator network(cost function)
+
+The Generator network wants to generate data that the Discriminator network can not realize that it's fake data(Maximize Discriminator's loss), and the Discriminator network wants to increase its accuracy.
+

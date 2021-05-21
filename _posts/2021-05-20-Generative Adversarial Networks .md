@@ -53,7 +53,7 @@ def build_gen(image_shape, z_dim):
 def build_dis(image_shape):
     model = Sequential()
     model.add(Flatten(shape=image_shape))
-    model.add(Dense())
+    model.add(Dense(128))
     model.add(LeakyReLU(alpha=0.01))
     model.add(Dense(1, activation="sigmoid"))
     return model

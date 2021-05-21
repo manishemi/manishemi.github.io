@@ -23,7 +23,7 @@ Training task is based on [Backpropagation algorithm](https://en.wikipedia.org/w
 The Generator network wants to generate data that the Discriminator network can not realize that it's fake data(Maximize Discriminator's loss), the Discriminator network wants to increase its accuracy(minimize its loss) and identifies  real data from fake data
 
 # Implementation
-for implementation you can see my [github page](https://github.com/manishemirani/Simple_GAN)
+For implementation you can also see my [github page](https://github.com/manishemirani/Simple_GAN)
 
 ## Output of code
 

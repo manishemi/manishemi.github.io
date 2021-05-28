@@ -50,14 +50,14 @@ Imagine we have a input like this:
 |:--:| 
 | Figure 3 : shape 4×4|
 
-And a kernel like this:
 
+And a kernel like this:
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/kernel.png)|
 |:--:| 
 | Figure 4 : shape 3×3|
 
-The Convolution matrix would be:
 
+The Convolution matrix would be:
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/cnv_matrix.png)|
 |:--:| 
 | Figure 5 : shape 4×16|

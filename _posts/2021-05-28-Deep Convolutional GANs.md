@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Deep Convolutional GAN is a kind of [GAN](https://manishemirani.github.io/Generative-Adversarial-Networks/) networks, which is using Convolution network in the Discriminator and Convolution transpose network in the Generator.
+Deep Convolutional GAN is a kind of [GAN](https://manishemirani.github.io/Generative-Adversarial-Networks/) network, which is using Convolution network in the Discriminator and Convolution transpose network in the Generator.
 
 
 # How are the Convolutions network work?
@@ -20,7 +20,7 @@ Filters(kernels) have two base part:
 
 ## Pooling Layer
 
-The pooling layer decreases the dimension of Convolution layers. This layer leads to prevent overfitting and decreasing computation.
+The pooling layer decreases the dimension of Convolution layers. This layer leads to prevents overfitting and decreasing computation.
 
 We have three kinds of pooling layer:
 
@@ -33,3 +33,10 @@ We have three kinds of pooling layer:
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/pooling.gif)|
 |:--:| 
 | Figure 2 : Kinds of pooling layers|
+
+Parameters in the Pooling layer are as same as the Convolution layer
+
+### NOTE: The Discriminator uses this kind of Convolution layer
+
+
+## But how about the Generator?

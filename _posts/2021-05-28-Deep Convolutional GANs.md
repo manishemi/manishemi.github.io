@@ -32,4 +32,4 @@ We have three kind of pooling layer:
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/pooling.gif)|
 |:--:| 
-| Figure 1 : Kinds of pooling layers|
+| Figure 2 : Kinds of pooling layers|

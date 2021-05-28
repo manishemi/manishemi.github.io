@@ -46,18 +46,21 @@ The Generator uses Transpose Convolution network
 # How are the Transpose Convolutions network work?
 
 Imagine we have a input like this:
+
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/input_matrix.png)|
 |:--:| 
 | Figure 3 : shape 4×4|
 
 
 And a kernel like this:
+
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/kernel.png)|
 |:--:| 
 | Figure 4 : shape 3×3|
 
 
 The Convolution matrix would be:
+
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/cnv_matrix.png)|
 |:--:| 
 | Figure 5 : shape 4×16|

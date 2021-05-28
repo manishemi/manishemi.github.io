@@ -71,3 +71,9 @@ Reult:
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/multiply.png)|
 |:--:| 
 | Figure 5 : shape 4×1, input(Figure 3) matrix is flatten|
+
+This operation is for the Convolution layer. In Transpose Convolution, we transpose the Convolution matrix and then multiply it to the input matrix
+
+|![_config.yml]({{ site.baseurl }}/images/DCGANs/transposed conv.png)|
+|:--:| 
+| Figure 5 : Transposed Convolution matrix, shape 16×4|

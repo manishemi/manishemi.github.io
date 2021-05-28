@@ -65,3 +65,9 @@ The Convolution matrix would be:
 |:--:| 
 | Figure 5 : shape 4×16|
 
+
+Reult:
+
+|![_config.yml]({{ site.baseurl }}/images/DCGANs/multiply.png)|
+|:--:| 
+| Figure 5 : shape 4×1, input matrix is flatten|

@@ -4,7 +4,7 @@ published: true
 Deep Convolutional GAN is a kind of [GAN](https://manishemirani.github.io/Generative-Adversarial-Networks/) network, which is using Convolution network in the Discriminator and Convolution transpose network in the Generator.
 
 
-# How are the Convolutions network work?
+# How are the Convolution networks work?
 Convolution networks are based on the Convolution layers which have trainable filters. These filters(matrices) have a smaller dimension than input data(input matrices), they multiply to input data and create an output that has less dimension of the input matrix.
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/1_ZCjPUFrB6eHPRi4eyP6aaA.gif)|
@@ -43,7 +43,7 @@ Parameters in the Pooling layer are as same as the Convolution layer
 
 The Generator uses Transpose Convolution network
 
-# How are the Transpose Convolutions network work?
+# How are the Transpose Convolution networks work?
 
 Imagine we have a input like this:
 

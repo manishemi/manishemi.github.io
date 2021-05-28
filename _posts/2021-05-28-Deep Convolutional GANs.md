@@ -79,7 +79,7 @@ This operation is for the Convolution layer. In Transpose Convolution, we transp
 | Figure 7 : Transposed Convolution matrix, shape 16×4|
 
 
-Shape from Figure 6 is 4×1 or 2×2, if we want to have an output with shape 16×1 or 4×4 we should multiply  Transposed Convolution matrix to flatten the input, which means we have a larger output so The Generator now can generate data
+Shape from Figure 6 is 4×1 or 2×2, if we want to have an output with shape 16×1 or 4×4 we should multiply  Transposed Convolution matrix to flatten the input, which means we have a larger output so now The Generator can generate data
 
 # Implementation
 For implementation you can also see my [github page](https://github.com/manishemirani/Simple_GAN)

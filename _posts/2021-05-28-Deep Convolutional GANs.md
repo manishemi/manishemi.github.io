@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Deep Convolutional GAN is a kind of [GAN](https://manishemirani.github.io/Generative-Adversarial-Networks/) network, which is using convolution network in the Generator and the Discriminator.
+Deep Convolutional GAN is a kind of [GAN](https://manishemirani.github.io/Generative-Adversarial-Networks/) networks, which is using convolution network in the Generator and the Discriminator.
 
 
 ## How are the Convolutions network work?

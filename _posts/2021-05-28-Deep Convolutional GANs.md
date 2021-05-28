@@ -9,4 +9,4 @@ Convolution networks are based on the Convolution layer which has trainable filt
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/1_ZCjPUFrB6eHPRi4eyP6aaA.gif)|
 |:--:| 
-| Figure 1 : Filters |
+| Figure 1 : Filters , Yellow is a filter(kernel)|

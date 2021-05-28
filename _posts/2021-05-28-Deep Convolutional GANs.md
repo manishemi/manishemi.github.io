@@ -50,7 +50,7 @@ Imagine we have a input like this:
 |:--:| 
 | Figure 3 : shape 4×4|
 
-And a kernel like:
+And a kernel like this:
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/kernel.png)|
 |:--:| 

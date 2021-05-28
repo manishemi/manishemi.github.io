@@ -22,7 +22,7 @@ Filters(kernels) have two base part:
 
 The pooling layer decreases the dimension of Convolution layers. This layer leads to prevent overfitting and decreasing computation.
 
-We have three kind of pooling layer:
+We have three kinds of pooling layer:
 
 1 - Max-Pooling
 

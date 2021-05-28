@@ -70,10 +70,16 @@ Reult:
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/multiply.png)|
 |:--:| 
-| Figure 5 : shape 4×1, input(Figure 3) matrix is flatten|
+| Figure 6 : shape 4×1, input(Figure 3) matrix is flatten|
 
 This operation is for the Convolution layer. In Transpose Convolution, we transpose the Convolution matrix and then multiply it to the input matrix
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/transposed conv.png)|
 |:--:| 
-| Figure 5 : Transposed Convolution matrix, shape 16×4|
+| Figure 7 : Transposed Convolution matrix, shape 16×4|
+
+
+Shape from Figure 6 is 4×1 or 2×2, if we want to have an output with shape 16×1 or 4×4 we should multiply  Transposed Convolution matrix to flatten the input, which means we have a larger output so The Generator now can generate data
+
+# Implementation
+For implementation you can also see my [github page](https://github.com/manishemirani/Simple_GAN)

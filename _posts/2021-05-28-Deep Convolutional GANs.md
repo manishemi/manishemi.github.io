@@ -10,3 +10,10 @@ Convolution networks are based on the Convolution layer which has trainable filt
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/1_ZCjPUFrB6eHPRi4eyP6aaA.gif)|
 |:--:| 
 | Figure 1 : Filters , yellow is a filter(kernel)|
+
+
+Filters(kernels) have two base part:
+
+1 - Size, which defines kernel size(e.g 3×3)
+
+2 - Strides, which defines step per each multiply(in Figure 1 it's 1, steps start from the center of each kernel)

@@ -24,11 +24,11 @@ The pooling layer decreases the dimension of Convolution layers. This layer lead
 
 We have three kinds of pooling layer:
 
-1 - Max-Pooling
+1 - Max Pooling
 
-2 - Average-pooling
+2 - Average Pooling
 
-3 - Sum-pooling
+3 - Sum Pooling
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/pooling.gif)|
 |:--:| 

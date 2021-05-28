@@ -70,4 +70,4 @@ Reult:
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/multiply.png)|
 |:--:| 
-| Figure 5 : shape 4×1, input(Figure 5) matrix is flatten|
+| Figure 5 : shape 4×1, input(Figure 3) matrix is flatten|

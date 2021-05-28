@@ -5,7 +5,7 @@ Deep Convolutional GAN is a kind of [GAN](https://manishemirani.github.io/Genera
 
 
 # How are the Convolutions network work?
-Convolution networks are based on the Convolution layer which has trainable filters. These filters(matrices) has a smaller dimension than input data(input matrices), they multiply to input data and create an output that has less dimension of the input matrix.
+Convolution networks are based on the Convolution layers which have trainable filters. These filters(matrices) have a smaller dimension than input data(input matrices), they multiply to input data and create an output that has less dimension of the input matrix.
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/1_ZCjPUFrB6eHPRi4eyP6aaA.gif)|
 |:--:| 
@@ -18,5 +18,18 @@ Filters(kernels) have two base part:
 
 2 - Strides, which defines step per each multiply(in Figure 1 it's 1, steps start from the center of each kernel)
 
-## Poolling Layer
+## Pooling Layer
 
+The pooling layer decreases the dimension of Convolution layers. This layer leads to prevent overfitting and decreasing computation.
+
+We have three kind of pooling layer:
+
+1 - Max-Pooling
+
+2 - Average-pooling
+
+3 - Sum-pooling
+
+|![_config.yml]({{ site.baseurl }}/images/DCGANs/pooling.gif)|
+|:--:| 
+| Figure 1 : Kinds of pooling layers|

@@ -83,3 +83,4 @@ Shape from Figure 6 is 4×1 or 2×2, if we want to have an output with shape 16�
 
 # Implementation
 For implementation you can also see my [github page](https://github.com/manishemirani/Simple_GAN)
+or visit [Tensorflow](https://www.tensorflow.org/tutorials/generative/dcgan)

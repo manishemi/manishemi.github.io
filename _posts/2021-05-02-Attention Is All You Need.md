@@ -112,6 +112,6 @@ They've implemented Transformer with TensorFlow, I suggest implementing a transf
 
 # _**References**_:
 
-[Trasformer Article](https://arxiv.org/abs/1706.03762)
+[Attention is all you need](https://arxiv.org/abs/1706.03762)
 
 [Tensorflow](https://www.tensorflow.org/tutorials/text/transformer)

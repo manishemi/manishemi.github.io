@@ -9,7 +9,7 @@ Convolution networks are based on the Convolution layers which have trainable fi
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/1_ZCjPUFrB6eHPRi4eyP6aaA.gif)|
 |:--:| 
-| Figure 1 : Filters , yellow is a filter(kernel)|
+| Figure 1 : Filters, yellow is a filter(kernel)|
 
 
 Filters(kernels) have two base part:
@@ -45,7 +45,7 @@ The Generator uses Transpose Convolution network
 
 # How are the Transpose Convolution networks work?
 
-Imagine we have a input like this:
+Assume that we have an input like this:
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/input_matrix.png)|
 |:--:| 
@@ -66,11 +66,11 @@ The Convolution matrix would be:
 | Figure 5 : shape 4×16|
 
 
-Reult:
+Result:
 
 |![_config.yml]({{ site.baseurl }}/images/DCGANs/multiply.png)|
 |:--:| 
-| Figure 6 : shape 4×1, input(Figure 3) matrix is flatten|
+| Figure 6 : shape 4×1, input(Figure 3) matrix is flattened |
 
 This operation is for the Convolution layer. In Transpose Convolution, we transpose the Convolution matrix and then multiply it to the input matrix
 

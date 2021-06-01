@@ -1,14 +1,14 @@
 ---
 published: true
 ---
-The cyclical learning rate(CLR) is a method for setting the learing rates, which practically find the best values and schedule for the global learning rates.
+The cyclical learning rate(CLR) is a method for setting the learning rates, which practically find the best values and schedule for the global learning rates.
 
 This method sets minimum and maximum boundaries and the learning rate cyclically varies between these.
 
 ![_config.yml]({{ site.baseurl }}/images/CLR/1.PNG)
 
 
-This curve shows the result of CLR method using on CIFAR-10
+This curve shows the result of the CLR method using on CIFAR-10
 
 ![_config.yml]({{ site.baseurl }}/images/CLR/2.PNG)
 
@@ -24,7 +24,7 @@ This curve shows the result of CLR method using on CIFAR-10
 
 	3 - max_lr --> Maximum learning rate schedule
 	
-    4 - min_lr --> Minimum laerning rate schedule
+    4 - min_lr --> Minimum learning rate schedule
     
     
 # Implementation with python

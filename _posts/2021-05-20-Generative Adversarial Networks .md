@@ -3,7 +3,7 @@ published: true
 ---
 I've heard about a kind of Neural network that can generate data from a specific dataset. I've been curious that how they are work?, so I've read about them and saw they have interesting architecture.
 
-Genrative Adversarial network(GAN) is a Nerual network model that generate sample like dataset features from random input(noise vector).
+A generative Adversarial Network(GAN) is a Neural network model that generates sample-like dataset features from random input(noise vector).
 
 GANs have two base part:
 
@@ -23,7 +23,7 @@ Training task is based on [Backpropagation algorithm](https://en.wikipedia.org/w
 The Generator network wants to generate data that the Discriminator network can not realize that it's fake data(Maximize Discriminator's loss), the Discriminator network wants to increase its accuracy(minimize its loss) and identifies  real data from fake data
 
 # Implementation
-For implementation you can also see my [github page](https://github.com/manishemirani/Simple_GAN)
+For implementation, you can also see my [github page](https://github.com/manishemirani/Simple_GAN)
 
 ## Output of code
 

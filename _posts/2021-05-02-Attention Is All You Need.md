@@ -20,7 +20,7 @@ some operation
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Model_Architecture.PNG)|
 |:--:| 
-| *Figure 1 : Tranformer - Model Architecture* |
+| *Figure 1 : Transformer - Model Architecture* |
 
 
 #### _**Encoder**_:
@@ -39,7 +39,7 @@ x = Input
 
 μ = Mean of x
 
-σ = Standard deviation of x ---> sqrt(sum((x[i] - mean) ** 2 for i in range(len(x)) / len(x))
+σ = Standard deviation of x ---> sqrt(sum((x[i] - mean) ** 2 for i in range(len(x))
 
 z = Normalized output
 
@@ -77,7 +77,7 @@ To illustrate why the dot products get large, assume that the components of q an
 variables with mean 0 and variance 1. Then their dot product has mean 0 and variance dk
 
 
-#### _**Multi Head Attention**_:
+#### _**Multi-Head Attention**_:
 
 |![_config.yml]({{ site.baseurl }}/images/Transformers/Multi_Head_Attention_Picture.PNG)|
 |:--:| 

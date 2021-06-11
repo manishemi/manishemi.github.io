@@ -29,5 +29,6 @@ In addition to these gates, we have a new parameter which is Memory Cell(C). LST
 
 Assume that we a data(h_t) that changed from h_t-1 so we should transform the h_t-1 with a new 
 value, so we use forget gate for that reason
+
 |![_config.yml]({{ site.baseurl }}/images/LSTM/forget_gate.png)|
 

@@ -17,9 +17,9 @@ As you can see in Figure 1 there is no mechanism to deliver the hidden memory(h)
 
 LSTM Gatest:
 
-	1 - Forget gate
+1 - Forget gate
 
-	2 - Update gate(also called input gate)
+2 - Update gate(also called input gate)
 
-	3 - Output gate
+3 - Output gate
 

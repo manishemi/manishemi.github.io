@@ -64,4 +64,9 @@ And then:
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/final_output.png)|
 
+Ouput gate:
+
+|![_config.yml]({{ site.baseurl }}/images/LSTM/lstm3.gif)|
+
+
 

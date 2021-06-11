@@ -24,3 +24,6 @@ LSTM Gatest:
 3 - Output gate
 
 In addition to these gates, we have a new parameter which is Memory Cell(C). LSTMs have two outputs, one is h_t and another one is c_t.
+
+## Forget Gate
+

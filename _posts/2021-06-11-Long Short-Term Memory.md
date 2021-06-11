@@ -60,7 +60,7 @@ At the end, Output gate desines that what value should use for hidden memory
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/output_gate.png)|
 
-And:
+And then:
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/final_output.png)|
 

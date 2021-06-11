@@ -27,3 +27,7 @@ In addition to these gates, we have a new parameter which is Memory Cell(C). LST
 
 ## Forget Gate
 
+|![_config.yml]({{ site.baseurl }}/images/LSTM/forget.png)|
+|:--:| 
+| Figure 2 : Forget Gate|
+

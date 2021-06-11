@@ -36,6 +36,8 @@ W_f is a weight matrix that controls the Forget gate behavior. we stacked the h_
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/lstm1.gif)|
 |:--:| 
-| Figure 3 : Forget Gate|
+
+## Update Gate
+
 
 

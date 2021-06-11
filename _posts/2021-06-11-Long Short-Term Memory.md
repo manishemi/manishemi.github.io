@@ -68,5 +68,5 @@ Ouput gate:
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/lstm3.gif)|
 
-
+You can also use LSTMs for mathematical purpose, for instance [seq2seq addition task](https://github.com/manishemirani/Seq2Seq_addition)
 

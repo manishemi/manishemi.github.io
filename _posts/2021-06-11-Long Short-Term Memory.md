@@ -53,3 +53,15 @@ We add our new vector to previous cell with:
 Update gate:
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/lstm2.gif)|
+
+## Output Gate
+
+At the end, Output gate desines that what value should use for hidden memory
+
+|![_config.yml]({{ site.baseurl }}/images/LSTM/output_gate.png)|
+
+And:
+
+|![_config.yml]({{ site.baseurl }}/images/LSTM/final_output.png)|
+
+

@@ -13,4 +13,4 @@ As you can see in Figure 1 there is no mechanism to deliver the hidden memory(h)
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/model.png)|
 |:--:| 
-| Figure 1 : RNN architecture|
+| Figure 1 : LSTM architecture|

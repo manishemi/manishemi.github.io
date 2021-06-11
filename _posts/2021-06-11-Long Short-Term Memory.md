@@ -46,7 +46,7 @@ Now we need a new vector:
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/C.png)|
 
-We add our new vector to previous cell with:
+We add our new vector to the previous cell with:
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/add_update.png)|
 
@@ -56,7 +56,7 @@ Update gate:
 
 ## Output Gate
 
-At the end, Output gate desines that what value should use for hidden memory
+In the end, Output gate defines that what value should use for hidden memory
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/output_gate.png)|
 

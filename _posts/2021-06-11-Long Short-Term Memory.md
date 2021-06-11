@@ -38,7 +38,7 @@ W_f is a weight matrix that controls the Forget gate behavior. we stacked the h_
 
 ## Update Gate
 
-After forgetting previous cell, now it's time to update our new cell:
+After forgetting the previous cell, now it's time to update our new cell:
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/update_gate.png)|
 

@@ -50,3 +50,6 @@ We add our new vector to previous cell with:
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/add_update.png)|
 
+Update gate:
+
+|![_config.yml]({{ site.baseurl }}/images/LSTM/lstm2.gif)|

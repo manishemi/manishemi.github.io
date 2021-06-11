@@ -31,3 +31,7 @@ In addition to these gates, we have a new parameter which is Memory Cell(C). LST
 |:--:| 
 | Figure 2 : Forget Gate|
 
+### Formula
+
+|![_config.yml]({{ site.baseurl }}/images/LSTM/forget_gate.png)|
+

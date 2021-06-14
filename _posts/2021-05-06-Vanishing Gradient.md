@@ -19,4 +19,4 @@ In practice, if we have more distance between our first and last words, then we 
 
 ### How we can solve this problem?
 
-Using LSTM or GRU(they've made for that reason)
+Using [LSTM](https://manishemirani.github.io/Long-Short-Term-Memory/) or GRU(they've made for that reason)

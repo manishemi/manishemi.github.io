@@ -32,7 +32,7 @@ value, we use forget gate for that reason
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/forget_gate.png)|
 
-W_f is a weight matrix that controls the Forget gate behavior. we stacked the h_t-1 and X_t and then multiply it to W_f matrix, then giving the result  to [sigmoid fucntion](https://en.wikipedia.org/wiki/Sigmoid_function) and getting output between 0 and 1([0, 1]), sigmoid function defines that how much should use the previous cell.
+W_f is a weight matrix that controls the Forget gate behavior. we stacked the h_t-1 and X_t and then multiply it to W_f matrix, then giving the result  to [sigmoid fucntion](https://en.wikipedia.org/wiki/Sigmoid_function) and getting output between 0 and 1(0, 1), sigmoid function defines that how much should use the previous cell.
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/lstm1.gif)|
 
@@ -69,4 +69,3 @@ Ouput gate:
 |![_config.yml]({{ site.baseurl }}/images/LSTM/lstm3.gif)|
 
 You can also use LSTMs for mathematical purpose, for instance [seq2seq addition task](https://github.com/manishemirani/Seq2Seq_addition)
-

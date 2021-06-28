@@ -10,4 +10,10 @@ Reinforcement Learning(also called RL) is another learning algorithm that can le
 
 ## Parts
 
-1 - Agent: An agent is an actor in the environment that can take actions, for instance as you can see in Figure1 the dog is an agent
+1 - Agent: An agent is an actor in the environment that can take actions, for instance as you can see in Figure 1 the dog is an agent
+
+2 - Environmnet: Environmnet is place that the agent exist and operates
+
+3 - Actions(Action space): Action space is a set of possible actions that the agent can make(The action space can be discrete or continuous)
+
+4 - Oobservation: Observation is how the Environment interact back with the Agent and the agent can observe where Environment it is and how its action affected the Environment, for example

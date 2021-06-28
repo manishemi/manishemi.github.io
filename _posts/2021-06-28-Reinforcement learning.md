@@ -20,5 +20,12 @@ Reinforcement Learning(also called RL) is another learning algorithm that can le
 
 5 - Reward: Reward is a scale for the success or failure of an agent's action. For example, if the dog(Agent) returns the bone will take food,  otherwise won't take anything
 
-## Policies
+We have also two kinds of learing algorithm in RL:
+
+1 - Value Learning
+
+2 - Policy Learning
+
+
+## Value Learning
 

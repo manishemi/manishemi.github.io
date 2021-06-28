@@ -6,3 +6,8 @@ Reinforcement Learning(also called RL) is another learning algorithm that can le
 |![_config.yml]({{ site.baseurl }}/images/RL/RL_fig1.jpg)|
 |:--:| 
 | Figure 1 : RL parts|
+
+
+# Parts
+
+1 - Agent: Agent is an actor in the environment that can take actions, for instance as you can see in Figure1 the dog is a agent 

@@ -53,13 +53,15 @@ The Q-function is a function that captures the expected total future reward an a
 
 
 In Value learning the policy is that find maximum **Q-value** from a specific state. Since is very hard for a human to compute the Q value,  we use aneural networks to achieve 
-**Q-values** and then select the maximum **Q-value** and then select the action from max Q-value and send it back to enviromment for receive next state
+**Q-values** and then select the maximum **Q-value** and then select the action from max Q-value and send it back to enviromment for receive next state.
 
 |![_config.yml]({{ site.baseurl }}/images/RL/DQN.png)|
 |:--:| 
 | Figure 5: Deep Q Network|
 
+### Downsides value learning
 
+You can not use this algorithm for continuous action space, It's for discrete and small action space. 
 
 ## _Policy Learning_
 

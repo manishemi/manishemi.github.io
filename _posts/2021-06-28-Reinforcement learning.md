@@ -8,7 +8,7 @@ Reinforcement Learning(also called RL) is another learning algorithm that can le
 | Figure 1: RL parts|
 
 
-## Parts
+## _Parts_
 
 1 - Agent: An agent is an actor in the environment that can take actions, for instance as you can see in Figure 1 the dog is an agent
 
@@ -28,7 +28,7 @@ We have also two kinds of a learning algorithm in RL:
 
 But before explaining learning algorithms let's see what is Q-Function and how is it work?
 
-## Q-Function
+## _Q-Function_
 
 The Q-function is a function that captures the expected total future reward an agent in the state(s) can receive by executing a certain action(a)
 
@@ -38,8 +38,11 @@ The Q-function is a function that captures the expected total future reward an a
 
 State: A state is a situation that the agent perceives
 
-Total Reward(also called return): The total reward is a summation of discounted rewards. The discounted reward defines that the reward that the agent receives in time t is more important than time t + 1, the discount factor is a number between 0 and 1 (0 < γ < 1)
+Total Reward(also called return): The total reward is a summation of discounted rewards. The discounted reward defines that the reward that the agent receives in time **t** is more important than time **t + 1**, the discount factor is a number between 0 and 1 **(0 < γ < 1)**
 
 |![_config.yml]({{ site.baseurl }}/images/RL/discounted_reward.png)|
 |:--:| 
 | Figure 3: Discounted Reward|
+
+
+## _Value Learning_

@@ -70,3 +70,9 @@ Policy Gradient(PG) enables the modeling of continuous action space. which can g
 |![_config.yml]({{ site.baseurl }}/images/RL/policy.png)|
 |:--:| 
 | Figure 6: PG Architecture|
+
+### Loss
+
+|![_config.yml]({{ site.baseurl }}/images/RL/pg_loss.png)|
+|:--:| 
+| Figure 7: PG loss|

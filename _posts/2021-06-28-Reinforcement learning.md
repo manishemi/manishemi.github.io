@@ -5,22 +5,22 @@ Reinforcement Learning(also called RL) is another learning algorithm that can le
 
 |![_config.yml]({{ site.baseurl }}/images/RL/RL_fig1.jpg)|
 |:--:| 
-| Figure 1 : RL parts|
+| Figure 1: RL parts|
 
 
 ## Parts
 
 1 - Agent: An agent is an actor in the environment that can take actions, for instance as you can see in Figure 1 the dog is an agent
 
-2 - Environmnet: Environmnet is place that the agent exist and operates
+2 - Environment: Environment is a place that the agent exists and operates
 
 3 - Actions(Action space): Action space is a set of possible actions that the agent can make(The action space can be discrete or continuous)
 
-4 - Oobservation: Observation is how the Environment interact back with the Agent and the agent can observe where Environment it is and how its action affected the Environment
+4 - Observation: Observation is how the Environment interact back with the Agent and the agent can observe where Environment is and how its action affected the Environment
 
 5 - Reward: Reward is a scale for the success or failure of an agent's action. For example, if the dog(Agent) returns the bone will take food,  otherwise won't take anything
 
-We have also two kinds of learning algorithm in RL:
+We have also two kinds of a learning algorithm in RL:
 
 1 - Value Learning
 
@@ -34,12 +34,12 @@ The Q-function is a function that captures the expected total future reward an a
 
 |![_config.yml]({{ site.baseurl }}/images/RL/q_function.png)|
 |:--:| 
-| Figure 2 : Q-function|
+| Figure 2: Q-function|
 
-State: A state is situation that the agent percevies
+State: A state is a situation that the agent perceives
 
-Total Reward(also called return): The total reward is a summation of discounted rewards. The discounted reward defines that the reward that the agent receives in time t is more important than time t + 1, the discount factor is number between 0 and 1 (0 < γ < 1)
+Total Reward(also called return): The total reward is a summation of discounted rewards. The discounted reward defines that the reward that the agent receives in time t is more important than time t + 1, the discount factor is a number between 0 and 1 (0 < γ < 1)
 
 |![_config.yml]({{ site.baseurl }}/images/RL/discounted_reward.png)|
 |:--:| 
-| Figure 3 : Discounted Reward|
+| Figure 3: Discounted Reward|

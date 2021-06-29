@@ -76,3 +76,16 @@ Policy Gradient(PG) enables the modeling of continuous action space. which can g
 |![_config.yml]({{ site.baseurl }}/images/RL/pg_loss.png)|
 |:--:| 
 | Figure 7: PG loss|
+
+As you can see in Figure 7 we use total reward(return) to compute the loss. If the agent gets the high reward then the paraments will change little because they perform well.
+
+_**Gradient descent**_:
+
+|![_config.yml]({{ site.baseurl }}/images/RL/pg_grad.png)|
+|:--:| 
+| Figure 8: PG gradient|
+
+
+## Examples
+
+For RL examples you can visit [gym](https://gym.openai.com/), they have pre-built [environments](https://gym.openai.com/envs/) and agents all you have to do is implement a learning algorithm on their. I've solved the probelm call (Copy-v0)[https://gym.openai.com/envs/Copy-v0/] in my [github page](https://github.com/manishemirani/Copy-v0) as well 

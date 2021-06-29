@@ -36,18 +36,4 @@ The Q-function is a function that captures the expected total future reward an a
 |:--:| 
 | Figure 2 : Q-function|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+State: A state is situation that the agent percevies

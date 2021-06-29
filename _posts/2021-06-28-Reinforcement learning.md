@@ -65,12 +65,8 @@ You can not use this algorithm for continuous action space, It's for discrete an
 
 ## _Policy Gradient_
 
-Policy Gradient(PG) enables modeling of continuous action space.
+Policy Gradient(PG) enables the modeling of continuous action space. which can give us an appropriate action rather than Q-value for specific state.
 
 |![_config.yml]({{ site.baseurl }}/images/RL/policy.png)|
 |:--:| 
 | Figure 6: PG Architecture|
-
-
-
-

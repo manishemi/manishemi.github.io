@@ -37,3 +37,9 @@ The Q-function is a function that captures the expected total future reward an a
 | Figure 2 : Q-function|
 
 State: A state is situation that the agent percevies
+
+Total Reward(also called return): The total reward is a summation of discounted rewards. The discounted reward defines that the reward that the agent receive in time t is more important than time t + 1, the discount factor is number between 0 and 1 (0 < γ < 1)
+
+|![_config.yml]({{ site.baseurl }}/images/RL/discounted_reward.png)|
+|:--:| 
+| Figure 3 : Discounted Reward|

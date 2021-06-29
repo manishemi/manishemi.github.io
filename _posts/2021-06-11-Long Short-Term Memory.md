@@ -5,7 +5,7 @@ Long Short-Term Memory(LSTM) is a kind of RNNs which is using different architec
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/RNN.png)|
 |:--:| 
-| Figure 1 : RNN Architecture|
+| Figure 1: RNN Architecture|
 
 As you can see in Figure 1 there is no mechanism to deliver the hidden memory(h) vector to other time steps. In other words data from each time step is replacing with the past time step data and input data, so the hidden memory affects few time steps. In LSTMs we have new gates that can help us to solve this problem.
 
@@ -32,7 +32,7 @@ value, we use forget gate for that reason
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/forget_gate.png)|
 
-W_f is a weight matrix that controls the Forget gate behavior. we stacked the h_t-1 and X_t and then multiply it to W_f matrix, then giving the result  to [sigmoid fucntion](https://en.wikipedia.org/wiki/Sigmoid_function) and getting output between 0 and 1(0, 1), sigmoid function defines that how much should use the previous cell.
+W_f is a weight matrix that controls the Forget gate behavior. we stacked the h_t-1 and X_t and then multiply it to the W_f matrix, then giving the result to [sigmoid fucntion](https://en.wikipedia.org/wiki/Sigmoid_function) and getting output between 0 and 1(0, 1), the sigmoid function defines that how much should use the previous cell.
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/lstm1.gif)|
 
@@ -56,7 +56,7 @@ Update gate:
 
 ## Output Gate
 
-In the end, Output gate defines that what value should use for hidden memory
+In the end, the Output gate defines that what value should use for hidden memory
 
 |![_config.yml]({{ site.baseurl }}/images/LSTM/output_gate.png)|
 

@@ -88,4 +88,4 @@ _**Gradient descent**_:
 
 ## Examples
 
-For RL examples you can visit [gym](https://gym.openai.com/), they have pre-built [environments](https://gym.openai.com/envs/) and agents all you have to do is implement a learning algorithm on their. I've solved the probelm call (Copy-v0)[https://gym.openai.com/envs/Copy-v0/] in my [github page](https://github.com/manishemirani/Copy-v0) as well 
+For RL examples you can visit [gym](https://gym.openai.com/), they have pre-built [environments](https://gym.openai.com/envs/) and agents all you have to do is implement a learning algorithm on their. I've solved the probelm call [Copy-v0](https://gym.openai.com/envs/Copy-v0/) in my [github page](https://github.com/manishemirani/Copy-v0) as well 

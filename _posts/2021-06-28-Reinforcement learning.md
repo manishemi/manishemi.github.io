@@ -46,3 +46,7 @@ Total Reward(also called return): The total reward is a summation of discounted 
 
 
 ## _Value Learning_
+
+|![_config.yml]({{ site.baseurl }}/images/RL/pv.png)|
+|:--:| 
+| Figure 4: Value Learning|

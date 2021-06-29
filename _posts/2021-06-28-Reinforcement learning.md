@@ -20,7 +20,7 @@ Reinforcement Learning(also called **RL**) is another learning algorithm that ca
 
 5 - **Reward**: Reward is a scale for the success or failure of an agent's action. For example, if the dog(Agent) returns the bone will take food,  otherwise won't take anything
 
-We have also two kinds of a learning algorithm in RL:
+We have also two kinds of a learning algorithms in RL:
 
 1 - _**Value Learning**_
 
@@ -53,7 +53,7 @@ The Q-function is a function that captures the expected total future reward an a
 
 
 In Value learning the policy is that find maximum **Q-value** from a specific state. Since is very hard for a human to compute the Q value,  we use aneural networks to achieve 
-**Q-values** and then select the maximum **Q-value** and then select the action from max Q-value and send it back to enviromment for receive next state.
+**Q-values** and then select the maximum **Q-value** and then select the action from max Q-value and send it back to the environment for receiving the next state.
 
 |![_config.yml]({{ site.baseurl }}/images/RL/DQN.png)|
 |:--:| 
@@ -65,7 +65,7 @@ You can not use this algorithm for continuous action space, It's for discrete an
 
 ## _Policy Gradient_
 
-Policy Gradient(PG) enables the modeling of continuous action space. which can give us an appropriate action rather than Q-value for specific state.
+Policy Gradient(PG) enables the modeling of continuous action space. which can give us an appropriate action rather than Q-value for a specific state.
 
 |![_config.yml]({{ site.baseurl }}/images/RL/policy.png)|
 |:--:| 
@@ -77,7 +77,7 @@ Policy Gradient(PG) enables the modeling of continuous action space. which can g
 |:--:| 
 | Figure 7: PG loss|
 
-As you can see in Figure 7 we use total reward(return) to compute the loss. If the agent gets the high reward then the paraments will change little because they perform well.
+As you can see in Figure 7 we use total reward(return) to compute the loss. If the agent gets a high reward then the paraments will change little because they perform well.
 
 _**Gradient descent**_:
 

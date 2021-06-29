@@ -30,4 +30,24 @@ But before explaining learning algorithms let's see what is Q-Function and how i
 
 ## Q-Function
 
+The Q-function is a function that captures the expected total future reward an agent in the state(s) can receive by executing a certain action(a)
+
+|![_config.yml]({{ site.baseurl }}/images/RL/q_function.png)|
+|:--:| 
+| Figure 2 : Q-function|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

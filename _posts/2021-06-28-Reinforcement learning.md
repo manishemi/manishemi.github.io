@@ -50,3 +50,11 @@ Total Reward(also called return): The total reward is a summation of discounted 
 |![_config.yml]({{ site.baseurl }}/images/RL/pv.png)|
 |:--:| 
 | Figure 4: Value Learning|
+
+
+In Value learning the approach is that find maximum Q-value from a specific state. Since is very hard for a human to compute the Q value,  we use aneural networks to achieve q values and then select the maximum q value
+
+|![_config.yml]({{ site.baseurl }}/images/RL/DQN.png)|
+|:--:| 
+| Figure 5: Deep Q Network|
+

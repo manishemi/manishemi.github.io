@@ -24,7 +24,7 @@ We have also two kinds of a learning algorithm in RL:
 
 1 - _**Value Learning**_
 
-2 - _**Policy Learning**_
+2 - _**Policy Gradient**_
 
 But before explaining learning algorithms let's see what is **Q-Function** and how is it work?
 
@@ -63,4 +63,14 @@ In Value learning the policy is that find maximum **Q-value** from a specific st
 
 You can not use this algorithm for continuous action space, It's for discrete and small action space. 
 
-## _Policy Learning_
+## _Policy Gradient_
+
+Policy Gradient(PG) enables modeling of continuous action space.
+
+|![_config.yml]({{ site.baseurl }}/images/RL/policy.png)|
+|:--:| 
+| Figure 6: PG Architecture|
+
+
+
+

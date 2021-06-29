@@ -59,9 +59,8 @@ In Value learning the policy is that find maximum **Q-value** from a specific st
 |:--:| 
 | Figure 5: Deep Q Network|
 
-### Downsides value learning
+### Downside of value learning
 
 You can not use this algorithm for continuous action space, It's for discrete and small action space. 
 
 ## _Policy Learning_
-

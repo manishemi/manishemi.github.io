@@ -53,7 +53,7 @@ The Q-function is a function that captures the expected total future reward an a
 
 
 In Value learning the policy is that find maximum **Q-value** from a specific state. Since is very hard for a human to compute the Q value,  we use Neural networks to achieve 
-**Q-values**, then select the maximum **Q-value**, select the action from max Q-value and return it to the environment for receiving the next state.
+**Q-values**, then select the maximum **Q-value**, select the action from the maximum Q-value and return it to the environment for receiving the next state.
 
 |![_config.yml]({{ site.baseurl }}/images/RL/DQN.png)|
 |:--:| 

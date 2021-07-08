@@ -18,7 +18,7 @@ Reinforcement Learning(also called **RL**) is another learning algorithm that ca
 
 4 - **Observation**: Observation is how the Environment interact back with the Agent and the agent can observe where Environment is and how its action affected the Environment
 
-5 - **Reward**: Reward is a scale for the success or failure of an agent's action. For example, if the dog(Agent) returns the bone will take food,  otherwise won't take anything
+5 - **Reward**: Reward is a scale for the success or failure of an agent's action. For example, if the dog(Agent) returns the bone will take food,  otherwise won't take food
 
 We have also two kinds of a learning algorithms in RL:
 

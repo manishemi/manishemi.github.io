@@ -77,7 +77,7 @@ Policy Gradient(PG) enables the modeling of continuous action space. which can g
 |:--:| 
 | Figure 7: PG loss|
 
-As you can see in Figure 7 we use total reward(return) to compute the loss. If the agent gets a high reward then the paraments will change little because they perform well.
+As you can see in Figure 7 we use total reward(return) to compute the loss. If the agent gets a high reward then the paraments will change a little because they perform well.
 
 _**Gradient descent**_:
 

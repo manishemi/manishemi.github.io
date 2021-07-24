@@ -89,3 +89,7 @@ _**Gradient descent**_:
 ## Examples
 
 For RL examples you can visit the [gym](https://gym.openai.com/), they have pre-built [environments](https://gym.openai.com/envs/) and agents. All you have to do is implement a learning algorithm. I've solved a problem call [Copy-v0](https://gym.openai.com/envs/Copy-v0/) in my [Github page](https://github.com/manishemirani/Copy-v0) as well
+
+
+# Refrences:
+[MIT deep learning](http://introtodeeplearning.com/)

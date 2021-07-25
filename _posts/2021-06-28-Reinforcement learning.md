@@ -20,7 +20,7 @@ Reinforcement Learning(also called **RL**) is another learning algorithm that ca
 
 5 - **Reward**: Reward is a scale for the success or failure of an agent's action. For example, if the dog(Agent) returns the bone will take food,  otherwise won't take food
 
-We have also two kinds of a learning algorithms in RL:
+We have also two kinds of learning algorithms in RL:
 
 1 - _**Value Learning**_
 
@@ -59,7 +59,7 @@ In Value learning the policy is that find maximum **Q-value** from a specific st
 |:--:| 
 | Figure 5: Deep Q Network|
 
-### Downside of value learning
+### The downside of value learning
 
 You can not use this algorithm for continuous action space, It's for discrete and small action space. 
 

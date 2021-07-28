@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-The Word2Vec is an algorithm that can find similarities and differences from words in NLP(Natural Language Processing) task. With word vectors we can easily find similarities or dissimilarities using distance measures(such as [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)).
+Distributed representation of words in vector space help learning algorithms to get better performance in NPL(Natural Language processing) task with grouping similar words. With word vectors, we can easily find similarities or dissimilarities using distance measures(such as [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)).
 
 But how we can represent words in vector space?
 

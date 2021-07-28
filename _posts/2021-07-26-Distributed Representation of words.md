@@ -36,7 +36,7 @@ Word Embedding is more complex than one-hot. In this approach, the word would be
 |:--:| 
 | Figure 3: Skip-gram model architecture|
 
-
+The training objective in the Skip-gram model is to learn word vector representations that are good at predicting the nearby word
 
 
 

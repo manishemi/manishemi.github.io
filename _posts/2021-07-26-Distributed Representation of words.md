@@ -46,3 +46,9 @@ Where the **c** is the size of training context, larger **c** leads to higher ac
 ### An example of target and context word
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/window.gif)|
+
+We can compute p(wt+j|wt)(probability of context word given target word) using softmax fucntion.
+
+|![_config.yml]({{ site.baseurl }}/images/Word2vec/softmax2.png)|
+
+where **v_w** is input(target word) and **v′_w** is output(context word) vector representation of W, and W is vocabulary size. But this formulation is impractical because the cost of computation is too much, imagine you have a dataset with 2 million words then the computation of the denominator would be too slow. So what is the alternative way? but before answer this question let me talk about **negative sampling**

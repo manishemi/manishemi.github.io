@@ -47,6 +47,7 @@ Where the **c** is the size of training context, larger **c** leads to higher ac
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/window.gif)|
 
+
 We can compute p(wt+j|wt)(probability of context word given target word) using softmax fucntion.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/softmax2.png)|

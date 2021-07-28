@@ -32,7 +32,7 @@ Word Embedding is more complex than one-hot. In this approach, the word would be
 
 ## _Skip-gram(SG)_
 
-|![_config.yml]({{ site.baseurl }}/images/Word2vec/one_hot.png)|
+|![_config.yml]({{ site.baseurl }}/images/Word2vec/skip-gram1.png)|
 |:--:| 
 | Figure 3: Skip-gram model architecture|
 

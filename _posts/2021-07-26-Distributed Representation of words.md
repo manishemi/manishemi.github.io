@@ -41,4 +41,8 @@ predicting surrounding words. In another word, if we have a sentence that has T 
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/log_prob.png)|
 
-Where the **c** is the size of training context, larger **c** leads to higher accuracy but larger c have a cost and that cost is the training time
+Where the **c** is the size of training context, larger **c** leads to higher accuracy but larger c have a cost and that cost is the training time. The w_t is target word and w_t+j is context word
+
+### An example of target and context word
+
+|![_config.yml]({{ site.baseurl }}/images/Word2vec/window.gif)|

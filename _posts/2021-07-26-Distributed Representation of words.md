@@ -37,10 +37,11 @@ Word Embedding is more complex than one-hot. In this approach, the word would be
 | Figure 3: Skip-gram model architecture|
 
 The training objective of the Skip-model is to find word representations that are are useful for 
-predicting surrounding words. In other word, if we have sentence that has 10 words(w_1, w_2, ..., w_10) that the model objective is to maximize average log probability.
+predicting surrounding words. In other word, if we have sentence that has 10 words(w1, w2, w3, ...wT) that the model objective is to maximize average log probability.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/log_prob.png)|
 |:--:| 
+
 
 
 

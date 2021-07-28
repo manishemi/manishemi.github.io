@@ -40,4 +40,3 @@ The training objective of the Skip-model is to find word representations that ar
 predicting surrounding words. In another word, if we have a sentence that has T words(w1, w2, w3, ...wT) that the model objective is to maximize average log probability.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/log_prob.png)|
-|:--:|

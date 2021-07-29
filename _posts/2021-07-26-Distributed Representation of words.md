@@ -50,7 +50,7 @@ Where the **c** is the size of training context, larger **c** leads to higher ac
 |Figure 4: target and context word|
 
 
-We can compute p(w_t+j | w_t)(probability of context word given target word) using softmax fucntion.
+We can compute <p>p(w_t+j | w_t)</p>(probability of context word given target word) using softmax fucntion.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/softmax2.png)|
 
@@ -66,6 +66,3 @@ Let's denote by p(D=1|w, c) the probability that (w,c) came from corpus data and
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/p_negative.png)|
 |:--:| 
 |Figure 5: gamma is [sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function)|
-
-
-

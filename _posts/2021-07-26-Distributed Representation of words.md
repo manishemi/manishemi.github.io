@@ -60,8 +60,7 @@ where _**vw**_ is input(target word) and _**v′w**_ is output(context word) vec
 
 Negative sampling is an approach that can leads to less computation cost than the previous approach. In this approach for every training step, instead of looping over the entire vocabulary, we can just sample negative samples. The negative samples select randomly from vocabulary(they don't contain context words).
 
-Let's denote by **P(D=1 \| w, c)** the probability that _**(w,c)**_ came from corpus data and **P(D=0 \| w,c)** or
-**1-P(D=1 \| w,c)** will be the probability that _**(w, c)**_ didn't come from corpus data.
+Let's denote by **P(D=1 \| w, c)** the probability that _**(w,c)**_ came from corpus data and **P(D=0 \| w,c)** or **1-P(D=1 \| w,c)** will be the probability that _**(w, c)**_ didn't come from corpus data.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/p_negative.png)|
 |:--:| 

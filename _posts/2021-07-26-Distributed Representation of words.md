@@ -81,4 +81,4 @@ In practice, for training our skip-gram model we need labels, which generate wit
 
 # Implementation
 
-For coding concepts you can visit the [Tensorflow Word2Vec](https://www.tensorflow.org/tutorials/text/word2vec), they implemented this algorithm on the text file of Shakespeare's writing. In addition, I implemented this algorithm on a Persian data set as well. You can visit it from [here](https://github.com/manishemirani/Word2Vec_Persian)..
+For coding concepts you can visit the [Tensorflow Word2Vec](https://www.tensorflow.org/tutorials/text/word2vec), they implemented this algorithm on the text file of Shakespeare's writing. In addition, I implemented this algorithm on a Persian dataset as well. You can visit it from [here](https://github.com/manishemirani/Word2Vec_Persian).

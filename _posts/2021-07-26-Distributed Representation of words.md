@@ -50,7 +50,7 @@ Where the **c** is the size of training context, larger **c** leads to higher ac
 |Figure 4: target and context word|
 
 
-We can compute p(w_t+\|\jw_t) (probability of context word given target word) using softmax fucntion.
+We can compute p(w_t+\|jw_t) (probability of context word given target word) using softmax fucntion.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/softmax2.png)|
 
@@ -60,8 +60,8 @@ where **v_w** is input(target word) and **v′_w** is output(context word) vecto
 
 Negative sampling is an approach that can leads to less computation cost than the previous approach. In this approach for every training step, instead of looping over the entire vocabulary, we can just sample negative samples. The negative samples select randomly from vocabulary(they don't contain context words).
 
-Let's denote by p(D=1|w, c) the probability that (w,c) came from corpus data and p(D=0|w,c) or
-1-p(D=1|w,c) will be the probability that (w, c) didn't com from corpus data.
+Let's denote by p(D=1\|w, c) the probability that (w,c) came from corpus data and p(D=0\|w,c) or
+1-p(D=1\|w,c) will be the probability that (w, c) didn't com from corpus data.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/p_negative.png)|
 |:--:| 

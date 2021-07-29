@@ -65,4 +65,9 @@ Let's denote by p(D=1\|w, c) the probability that (w,c) came from corpus data an
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/p_negative.png)|
 |:--:| 
-|Figure 5: probibality that (w,c) came from corpus data|
+|Figure 5: probability that (w,c) came from corpus data|
+
+Total loss would be:
+|![_config.yml]({{ site.baseurl }}/images/Word2vec/skipgram-with-negative-sampling.png)|
+|:--:|
+|Figure 6: Total loss|

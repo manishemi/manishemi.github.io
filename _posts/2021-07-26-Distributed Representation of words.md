@@ -73,6 +73,8 @@ Total loss would be:
 |:--:|
 |Figure 6: Total loss|
 
-### Diffrence between Skip-gram and negative sampling
+### Difference between Skip-gram and negative sampling
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/skipgram-with-negative-sampling.png)|
+
+In practice, for training our skip-gram model we need labels, which generate with skip-gram pair and negative sample pairs. For instance, if you have a sentence like "**Shalt not make a machine**" then the label with target word "make" and with the number of negative samples 2 would be \[1, 0, 0]. 

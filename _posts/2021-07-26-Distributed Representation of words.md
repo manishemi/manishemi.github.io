@@ -18,7 +18,7 @@ For representing words in vectors we have two options:
 |:--:| 
 | Figure 1: One-hot|
 
-As you can see in figure 1 every word in this sentence is represented as a vector with size 8(our vocab size) which only the index of the corresponding word is 1 and the other words are 0. But this approach makes words independent of each other and obviously, this would be a bad idea to find similarities or differences.
+As you can see in figure 1 every word in this sentence is represented as a vector with size 8(our vocabulary size) which only the index of the corresponding word is 1 and the other words are 0. But this approach makes words independent of each other and obviously, this would be a bad idea to find similarities or differences.
 For instance, if we dot product **ate** vector and **played** vector together we would get 0 and this means they don't have any similarities, but in fact, at least they have a similarity, they are both simple past.
 
 ## _Word Embedding_
@@ -65,4 +65,4 @@ Let's denote by p(D=1\|w, c) the probability that (w,c) came from corpus data an
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/p_negative.png)|
 |:--:| 
-|Figure 5: gamma is [sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function)|
+|Figure 5: probibality that (w,c) came from corpus data|

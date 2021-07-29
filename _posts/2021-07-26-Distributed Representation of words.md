@@ -61,7 +61,7 @@ where **v_w** is input(target word) and **v′_w** is output(context word) vecto
 Negative sampling is an approach that can leads to less computation cost than the previous approach. In this approach for every training step, instead of looping over the entire vocabulary, we can just sample negative samples. The negative samples select randomly from vocabulary(they don't contain context words).
 
 Let's denote by p(D=1\|w, c) the probability that (w,c) came from corpus data and p(D=0\|w,c) or
-1-p(D=1\|w,c) will be the probability that (w, c) didn't com from corpus data.
+1-p(D=1\|w,c) will be the probability that (w, c) didn't come from corpus data.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/p_negative.png)|
 |:--:| 
@@ -81,7 +81,7 @@ In practice, for training our skip-gram model we need labels, which generate wit
 
 # Implementation
 
-For coding concepts you can visit the [Tensorflow Word2Vec](https://www.tensorflow.org/tutorials/text/word2vec), they implemented this algorithm on the text file of Shakespeare's writing. In addition, I implemented this algorithm on a Persian dataset as well. You can visit it from [here](https://github.com/manishemirani/Word2Vec_Persian).
+For coding concepts, you can visit the [Tensorflow Word2Vec](https://www.tensorflow.org/tutorials/text/word2vec), which implemented this algorithm on the text file of Shakespeare's writing. In addition, I implemented this algorithm on a Persian dataset as well. You can visit it from [here](https://github.com/manishemirani/Word2Vec_Persian).
 
 
 # References

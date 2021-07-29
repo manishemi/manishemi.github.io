@@ -66,6 +66,3 @@ Let's denote by p(D=1|w, c) the probability that (w,c) came from corpus data and
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/p_negative.png)|
 |:--:| 
 |Figure 5: gamma is [sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function)|
-
-
-<p>p(w_t+j | w_t)</p>

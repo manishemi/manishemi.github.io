@@ -41,7 +41,7 @@ predicting surrounding words. In another word, if we have a sentence that has T 
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/log_prob.png)|
 
-Where the **c** is the size of training context, larger **c** leads to higher accuracy but larger c has a cost and that cost is the training time. The w_t is the target word and w_t+j is the context word
+Where the **c** is the size of training context, larger **c** leads to higher accuracy but larger **c** has a cost and that cost is the training time. The **w_t** is the target word and **w_t+j** is the context word
 
 ### An example of target and context word
 
@@ -50,22 +50,22 @@ Where the **c** is the size of training context, larger **c** leads to higher ac
 |Figure 4: target and context word|
 
 
-We can compute p(w_t+j\|w_t) (probability of context word given target word) using softmax fucntion.
+We can compute **P(w_t+j\|w_t)** (probability of context word given target word) using softmax fucntion.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/softmax2.png)|
 
-where **v_w** is input(target word) and **v′_w** is output(context word) vector representation of W, and W is vocabulary size. But this formulation is impractical because the cost of computation is too much, imagine you have a dataset with 2 million words then the computation of the denominator would be too slow. So what is the alternative way?
+where **v_w** is input(target word) and **v′_w** is output(context word) vector representation of **W**, and W is vocabulary size. But this formulation is impractical because the cost of computation is too much, imagine you have a dataset with 2 million words then the computation of the denominator would be too slow. So what is the alternative way?
 
 ### Negative Sampling
 
 Negative sampling is an approach that can leads to less computation cost than the previous approach. In this approach for every training step, instead of looping over the entire vocabulary, we can just sample negative samples. The negative samples select randomly from vocabulary(they don't contain context words).
 
-Let's denote by p(D=1\|w, c) the probability that (w,c) came from corpus data and p(D=0\|w,c) or
-1-p(D=1\|w,c) will be the probability that (w, c) didn't come from corpus data.
+Let's denote by **P(D=1\|w, c)** the probability that **(w,c)** came from corpus data and **P(D=0\|w,c)** or
+**1-P(D=1\|w,c)** will be the probability that **(w, c)** didn't come from corpus data.
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/p_negative.png)|
 |:--:| 
-|Figure 5: the probability that (w,c) came from corpus|
+|Figure 5: the probability that **(w,c)** came from corpus|
 
 Total loss would be:
 
@@ -77,7 +77,7 @@ Total loss would be:
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/skipgram-with-negative-sampling.png)|
 
-In practice, for training our skip-gram model we need labels, which generate with skip-gram pair and negative sample pairs. For instance, if you have a sentence like "**Shalt not make a machine**" then the label with the target word "make" and with the number of negative samples 2 would be \[1, 0, 0].
+In practice, for training our skip-gram model we need labels, which generate with skip-gram pair and negative sample pairs. For instance, if you have a sentence like "**Shalt not make a machine**" then the label with the target word "make" and with the number of negative samples 2 would be \**[1, 0, 0]**.
 
 # Implementation
 

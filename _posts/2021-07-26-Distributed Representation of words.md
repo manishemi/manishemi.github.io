@@ -65,7 +65,7 @@ Let's denote by p(D=1\|w, c) the probability that (w,c) came from corpus data an
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/p_negative.png)|
 |:--:| 
-|Figure 5: the probability that (w,c) came from corpus dathttps://www.tensorflow.org/tutorials/text/word2veca|
+|Figure 5: the probability that (w,c) came from corpus|
 
 Total loss would be:
 

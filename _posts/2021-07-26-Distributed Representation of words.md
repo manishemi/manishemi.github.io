@@ -54,7 +54,7 @@ We can compute **P(w_t+j \| w_t)** (probability of context word given target wor
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/softmax2.png)|
 
-where _**vw**_ is input(target word) and _**v′w**_ is output(context word) vector representation of _**W**_, and W is vocabulary size. But this formulation is impractical because the cost of computation is too much, imagine you have a dataset with 2 million words then the computation of the denominator would be too slow. So what is the alternative way?
+where _**vw**_ is input(target word) and _**v′w**_ is output(context word) vector representation of _**W**_, and _**W**_ is vocabulary size. But this formulation is impractical because the cost of computation is too much, imagine you have a dataset with 2 million words then the computation of the denominator would be too slow. So what is the alternative way?
 
 ### Negative Sampling
 

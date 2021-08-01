@@ -27,7 +27,7 @@ For instance, if we dot product _**ate**_ vector and _**played**_ vector togethe
 |:--:| 
 | Figure 2: Word Embedding|
 
-Word Embedding is more complex than one-hot. In this approach, the word would be present as a vector with Embedding dimension _**N**_ (in figure 2 it's 4) that feeds with random numbers at the beginning. The numbers that constructed embedding vector are updating every step as same as the model's weights. For a better understanding of the embedding concept, imagine we have a word-like _**computer**_ that feeds with an embedding vector with dimension 100 then every number in this embedded vector describes one feature of computer like noun, singular, etc.
+Word Embedding is more complex than one-hot. In this approach, the word would be present as a vector with Embedding dimension _**N**_ (in figure 2 it's 4) that feeds with random numbers at the beginning. The numbers that constructed embedding vector are updating every step as same as the model's weights(word embedding vectors are trainable). For a better understanding of the embedding concept, imagine we have a word-like _**computer**_ that feeds with an embedding vector with dimension 100 then every number in this embedded vector describes one feature of computer like noun, singular, etc.
 
 
 ## _Skip-gram(SG)_

@@ -29,6 +29,6 @@ architecture.
 |:--:| 
 | Figure 2 : Seq2Seq model|
 
-This architecture has a problem. The problem is that all pieces of information about the source sentence are store in a single vector(context vector). In another word for each step in RNNs the previous hidden state add to current hidden state with some forgotten information from previous hidden state and that means, in the context vector we kinda have a summarization of previous hidden states. This problem calls the **bottleneck problem**.
+This architecture has a problem. The problem is that all pieces of information about the source sentence are store in a single vector(context vector). In another word for each step in RNNs the previous hidden state add to the current hidden state with some forgotten information from previous hidden state and that means, in the context vector we kinda have a summarization of previous hidden states. This problem calls the **bottleneck problem**.
 
 How could we solve this problem? well, the short answer is **Attention mechanism**

@@ -29,5 +29,5 @@ Sequence-to-Sequence(Seq2seq) is a model that made up with two recurrnet neural 
 |:--:| 
 | Figure 2 : Seq2Seq model|
 
-This architecture has a problem. The problem is that all pieces of information about the source sentence are store in one vector(context vector). In another word for each step in RNNs the previous hidden state add to current hidden state with some forgotten and that means to in context vector we kinda have a summarization of previous hidden states. This problem calls the bottleneck problem.
+This architecture has a problem. The problem is that all pieces of information about the source sentence are store in single vector(context vector). In another word for each step in RNNs the previous hidden state add to current hidden state with some forgotten and that means to in context vector we kinda have a summarization of previous hidden states. This problem calls the bottleneck problem.
 

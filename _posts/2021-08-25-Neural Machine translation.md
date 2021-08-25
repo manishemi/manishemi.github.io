@@ -19,7 +19,7 @@ architecture.
 
 # Seq2Seq
 
-Sequence-to-Sequence(Seq2seq) is a model that made up with two recurrnet neural network.
+Sequence-to-Sequence(Seq2seq) is a model that made up of two recurrnet neural networks.
 
 1 - Encoder -> This layer takes a sentence from the source language and encodes it into a 'context vector'
 

@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Machine Translation(MT) is a task that can translate a sentence X from one language(the source language) to a sentence Y from another language(the target language).
+Machine Translation(**MT**) is a task that can translate a sentence **X** from one language(the source language) to a sentence **Y** from another language(the target language).
 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/MT_ex.png)|
 |:--:| 
@@ -28,3 +28,6 @@ Sequence-to-Sequence(Seq2seq) is a model that made up with two recurrnet neural 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/seq2seq.gif)|
 |:--:| 
 | Figure 2 : Seq2Seq model|
+
+This architecture has a problem. The problem is that all pieces of information about the source sentence are store in one vector(context vector). In another word for each step in RNNs the previous hidden state add to current hidden state with some forgotten and that means to in context vector we kinda have a summarization of previous hidden states. This problem calls the bottleneck problem.
+

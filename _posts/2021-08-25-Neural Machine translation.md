@@ -36,4 +36,7 @@ How could we solve this problem? well, the short answer is **Attention Mechanism
 # Attention Mechanism
 
 Attention Mechanism enables the decoder network to look at the entire input sentence at every decoding step. Then the decoder can decide what input words are important at every time step for predicting the next words.
-In practice, we find similarities between all hidden states in the encoder and each time step in the decoder with the dot product between those and at the end of this operation we have some **Attention scores**.
+In practice, we find similarities between all hidden states in the encoder and each time step in the decoder with the dot product between those. At the end of this operation, we have some **Attention scores**. Then feed these attention scores to **softmax function** to receive attention distribution and mulitiply this probibalites to the encoder hidden state to define that which hidden state in encoder is more important for the decoder in each time step.
+
+|![_config.yml]({{ site.baseurl }}/images/Machine Translation/attention_process.mp4)|
+

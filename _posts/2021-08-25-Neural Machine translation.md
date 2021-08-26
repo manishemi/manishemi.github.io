@@ -50,10 +50,17 @@ Then give the result to softmax function to get the attention distribution:
 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/softmax_att.png)|
 
-Multiply the hidden state to attention probibalities and sum up the weighted vectors:
+Multiply the hidden state to attention probabilities and sum up the weighted vectors:
 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/add.png)|
 
 At end we cocatenate the attention ouputs **a_t** and decoder hidden state(**s_t**):
 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/concatenate.png)|
+
+# Bidirectional RNNs
+
+In a sentence, a word could have a dependency on anther word before or after it.
+In the seq2seq model that we talk about so far dosen't made for that reason. The seq2seq model
+just considering information from words before the current word. That problem leads to having a bad translation in MT task.
+Bidirectional RNNs solve this problem by traversing a sequence in both directions and concatenating the ouputs of both RNNs(left to right and right to left).

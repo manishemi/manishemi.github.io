@@ -31,4 +31,9 @@ architecture.
 
 This architecture has a problem. The problem is that all pieces of information about the source sentence are store in a single vector(context vector). In another word for each step in RNNs the previous hidden state add to the current hidden state with some forgotten information from previous hidden state and that means, in the context vector we kinda have a summarization of previous hidden states. This problem calls the **bottleneck problem**.
 
-How could we solve this problem? well, the short answer is **Attention mechanism**
+How could we solve this problem? well, the short answer is **Attention Mechanism**
+
+# Attention Mechanism
+
+Attention Mechanism enables the decoder network to look at the entire input sentence at every decoding step. Then the decoder can decide what input words are important at every time step for predicting the next words.
+In practice, we find similarities between all hidden states in the encoder and each time step in the decoder with the dot product between those and at the end of this operation we have some **Attention scores**.

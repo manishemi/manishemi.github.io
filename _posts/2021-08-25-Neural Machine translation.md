@@ -62,3 +62,8 @@ At end we cocatenate the attention ouputs **a_t** and decoder hidden state(**s_t
 
 In a sentence, a word could have a dependency on another word before or after it. The seq2seq model that we talk about so far doesn't build for that reason.
 The seq2seq model just considering information from words before the current word. That problem leads to having a bad translation in the MT task. Bidirectional RNNs solve this problem by traversing a sequence in both directions and concatenating the outputs of both RNNs(left to right and right to left).
+
+|![_config.yml]({{ site.baseurl }}/images/Machine Translation/BiRRNs.png)|
+|:--:| 
+| Figure 3 : An example of Bidirectional LSTMs|
+

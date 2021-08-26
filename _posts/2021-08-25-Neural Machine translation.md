@@ -36,6 +36,21 @@ How could we solve this problem? well, the short answer is **Attention Mechanism
 # Attention Mechanism
 
 Attention Mechanism enables the decoder network to look at the entire input sentence at every decoding step. Then the decoder can decide what input words are important at every time step for predicting the next words.
-In practice, we find similarities between all hidden states in the encoder and each time step in the decoder with the dot product between those. At the end of this operation, we have some **Attention scores**. Then feed these attention scores to **softmax function** to receive attention distribution and mulitiply this probibalites to the encoder hidden state to define that which hidden state in encoder is more important for the decoder in each time step.
+In practice, we find similarities between all hidden states in the encoder and each time step in the decoder with the [dot product](https://en.wikipedia.org/wiki/Dot_product) between those. At the end of this operation, we have some **Attention scores**. Then feed these attention scores to **softmax function** to receive attention distribution and multiply these probabilities to the encoder hidden state to define which hidden state in the encoder is more important for the decoder in each time step and add these vectors together to achieve **context vector**.
 
 [![steps](https://res.cloudinary.com/marcomontalbano/image/upload/v1629983536/video_to_markdown/images/video--a23b083158c1d21b3d4d045f1e0d92e5-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://jalammar.github.io/images/attention_process.mp4 "steps")
+
+## Attention mechanism in equation
+
+Asume that we have **'n'** hidden states in encoder **h_1**, **h_2**, ...., **h_n** and on timestep **'t'** we have decoder hidden state **s_t**. we get attention scores with this formula:
+
+|![_config.yml]({{ site.baseurl }}/images/Machine Translation/att_scores_formula.png)|
+|
+
+Then give the result to softmax function to get the attention distribution:
+
+|![_config.yml]({{ site.baseurl }}/images/Machine Translation/softmax_att.png)|
+
+Multiply the hidden state to attention probibalities and sum up the weighted vectors:
+
+|![_config.yml]({{ site.baseurl }}/images/Machine Translation/add.png)|

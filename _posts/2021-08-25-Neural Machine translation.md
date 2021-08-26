@@ -45,7 +45,6 @@ In practice, we find similarities between all hidden states in the encoder and e
 Asume that we have **'n'** hidden states in encoder **h_1**, **h_2**, ...., **h_n** and on timestep **'t'** we have decoder hidden state **s_t**. we get attention scores with this formula:
 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/att_scores_formula.png)|
-|
 
 Then give the result to softmax function to get the attention distribution:
 

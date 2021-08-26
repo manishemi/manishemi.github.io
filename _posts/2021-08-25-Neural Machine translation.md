@@ -53,3 +53,7 @@ Then give the result to softmax function to get the attention distribution:
 Multiply the hidden state to attention probibalities and sum up the weighted vectors:
 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/add.png)|
+
+At end we cocatenate the attention ouputs **a_t** and decoder hidden state(**s_t**):
+
+|![_config.yml]({{ site.baseurl }}/images/Machine Translation/concatenate.png)|

@@ -36,7 +36,7 @@ How could we solve this problem? well, the short answer is **Attention Mechanism
 # Attention Mechanism
 
 Attention Mechanism enables the decoder network to look at the entire input sentence at every decoding step. Then the decoder can decide what input words are important at every time step for predicting the next words.
-In practice, we find similarities between all hidden states in the encoder and each time step in the decoder with the [dot product](https://en.wikipedia.org/wiki/Dot_product) between those. At the end of this operation, we have some **Attention scores**. Then feed these attention scores to **softmax function** to receive attention distribution and multiply these probabilities to the encoder hidden state to define which hidden state in the encoder is more important for the decoder in each time step and add these vectors together to achieve **context vector**.
+In practice, we find similarities between all hidden states in the encoder and each time step in the decoder with the [dot product](https://en.wikipedia.org/wiki/Dot_product) between those. At the end of this operation, we have some **Attention scores**. Then feed these attention scores to **[softmax function](https://en.wikipedia.org/wiki/Softmax_function)** to receive attention distribution and multiply these probabilities to the encoder hidden state to define which hidden state in the encoder is more important for the decoder in each time step and add these vectors together to achieve **context vector**.
 
 [![steps](https://res.cloudinary.com/marcomontalbano/image/upload/v1629983536/video_to_markdown/images/video--a23b083158c1d21b3d4d045f1e0d92e5-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://jalammar.github.io/images/attention_process.mp4 "steps")
 

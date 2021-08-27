@@ -7,7 +7,7 @@ published: true
 |:--:| 
 | Figure 1 : English to Germany|
 
-In the past translation system were based on two parts:
+In the past, translation system were based on two parts:
 
 1 - **Translation model** -> Defines what sentence/phrase in the source language is most likely to the target language sentence/phrase.
 

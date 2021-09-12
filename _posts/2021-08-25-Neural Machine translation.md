@@ -42,7 +42,7 @@ In practice, we find similarities between all hidden states in the encoder and e
 
 ## Attention mechanism in equation
 
-Asume that we have **'n'** hidden states in encoder **h_1**, **h_2**, ...., **h_n** and on timestep **'t'** we have decoder hidden state **s_t**. we get attention scores with this formula:
+Assume that we have **'n'** hidden states in encoder **h_1**, **h_2**, ...., **h_n** and on time step **'t'** we have decoder hidden state **s_t**. we get attention scores with this formula:
 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/att_scores_formula.png)|
 
@@ -54,7 +54,7 @@ Multiply the hidden state to attention probabilities and sum up the weighted vec
 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/add.png)|
 
-At end we cocatenate the attention ouputs **a_t** and decoder hidden state(**s_t**):
+At end we concatenate the attention ouputs **a_t** and decoder hidden state(**s_t**):
 
 |![_config.yml]({{ site.baseurl }}/images/Machine Translation/concatenate.png)|
 

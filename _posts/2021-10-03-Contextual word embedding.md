@@ -13,4 +13,11 @@ For instance, if we have a sentence like "Your mouse likes cheese" and "Buy a ne
 |:--:| 
 | Figure 2: Contextual word embedding|
 
+There are three famous models that enable us to have contextual word embeddings:
+
+1 - BERT(Bidirectional Encoder Representations from Transformers)
+
+2 - GPT-1, 2, 3
+
+3 - ELMO
 

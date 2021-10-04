@@ -15,8 +15,29 @@ For instance, if we have a sentence like "Your mouse likes cheese" and "Buy a ne
 
 these are three famous models that enable us to have contextual word embeddings:
 
-1 - BERT(Bidirectional Encoder Representations from Transformers)
+1 - **BERT**(Bidirectional Encoder Representations from [Transformers](https://manishemirani.github.io/Attention-Is-All-You-Need/))
 
-2 - GPT-1, 2, 3
+2 - **GPT**-1, 2, 3
 
-3 - ELMO
+3 - **ELMO**
+
+
+# ELMO(Embedding from Language Models)
+
+|![_config.yml]({{ site.baseurl }}/images/BERT/ELMO1.png)|
+|:--:| 
+| Figure 3: ELMO|
+
+ELMO is a language model that is trained on a massive dataset to be able to predict the next word in a sequence of words. The ELOMO is composed of two language models, Forward Language Model and Backward Language Model. These Language Models are similar to the bi-directional LSTMs that each LSTM trains separately in one way(left ot right).
+
+|![_config.yml]({{ site.baseurl }}/images/BERT/ELMO2.png)|
+|:--:| 
+| Figure 4: ELMO architecture|
+
+
+
+
+
+
+
+

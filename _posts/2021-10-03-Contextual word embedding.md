@@ -20,4 +20,3 @@ There are three famous models that enable us to have contextual word embeddings:
 2 - GPT-1, 2, 3
 
 3 - ELMO
-

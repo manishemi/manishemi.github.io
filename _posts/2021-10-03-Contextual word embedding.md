@@ -61,8 +61,6 @@ Also we have to kinds of BERT:
 
 # References
 
-[Jay Alammar](http://jalammar.github.io/) web page for pictures
+[Jay Alammar web page](http://jalammar.github.io/)
 
 [cs224n Standford University NLP course](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/index.html)
-
-

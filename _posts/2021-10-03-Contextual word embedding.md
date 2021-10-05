@@ -28,18 +28,8 @@ these are three famous models that enable us to have contextual word embeddings:
 |:--:| 
 | Figure 3: ELMO|
 
-ELMO is a language model that is trained on a massive dataset to be able to predict the next word in a sequence of words. The ELMO is composed of two language models, Forward Language Model and Backward Language Model. These Language Models are similar to the [bi-directional LSTMs](https://manishemirani.github.io/Neural-Machine-translation/) that each [LSTM](https://manishemirani.github.io/Long-Short-Term-Memory/) trains separately in one direction(left ot right).
+ELMO is a language model that is trained on a massive dataset to be able to predict the next word in a sequence of words. The ELMO is composed of two language models, Forward Language Model and Backward Language Model. These Language Models are similar to the [bi-directional LSTMs](https://manishemirani.github.io/Neural-Machine-translation/) that each [LSTM](https://manishemirani.github.io/Long-Short-Term-Memory/) trains separately in one direction(left or right).
 
 |![_config.yml]({{ site.baseurl }}/images/BERT/ELMO2.png)|
 |:--:| 
 | Figure 4: ELMO architecture|
-
-
-
-
-
-
-
-
-
-

@@ -42,3 +42,6 @@ GPT is also a language model that uses the decoder of the transformers instead o
 |:--:| 
 | Figure 5: GPT-2|
 
+
+
+

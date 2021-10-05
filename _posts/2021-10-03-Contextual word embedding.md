@@ -17,7 +17,7 @@ these are three famous models that enable us to have contextual word embeddings:
 
 1 - **BERT**(Bidirectional Encoder Representations from [Transformers](https://manishemirani.github.io/Attention-Is-All-You-Need/))
 
-2 - **GPT**-1, 2, 3
+2 - **GPT**(it also comes with suffix 1, 2, 3)
 
 3 - **ELMO**
 
@@ -33,3 +33,14 @@ ELMO is a language model that is trained on a massive dataset to be able to pred
 |![_config.yml]({{ site.baseurl }}/images/BERT/ELMO2.png)|
 |:--:| 
 | Figure 4: ELMO architecture|
+
+# GPT
+
+
+
+
+
+
+
+
+

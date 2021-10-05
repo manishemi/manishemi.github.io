@@ -36,11 +36,9 @@ ELMO is a language model that is trained on a massive dataset to be able to pred
 
 # GPT
 
+GPT is also a language model that uses the decoder of the transformers instead of the LSTMs in ELMO. All the **GPT** models are composed of the decoder of the transformers. For example, the **GPT-2 SMALL** contains twelve decoder layers. This model(all GPTs) uses **masked self-attention** that helps the model to predict the next word just by using the previous words.
 
-
-
-
-
-
-
+|![_config.yml]({{ site.baseurl }}/images/BERT/GPT-2.png)|
+|:--:| 
+| Figure 5: GPT-2|
 

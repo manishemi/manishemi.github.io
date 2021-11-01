@@ -47,7 +47,7 @@ GPT is also a language model that uses the decoder of the transformers instead o
 BERT is composed of the encoder of the transformer. BERT is a **Forward** and **Backward** language model at the same time, rather than the ELMO language model that had two language models (Forward and Backward) or GPT that was a Forward language model at all.
 BERT uses the **self-attention** mechanism that enables the model to look at both directions in a sentence, rather than the GPT that uses **masked self-attention**(leads to having a Forward LM).
 
-Also we have to kinds of BERT:
+Also, we have two kinds of BERT:
 
 1 - BERT BASE -> Composed of 12 encoder layers(Transformer Blocks)
 

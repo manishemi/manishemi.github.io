@@ -1,7 +1,8 @@
 ---
 published: true
 ---
-Distributed representation of words in vector space help learning algorithms to get better performance in NLP(Natural Language processing) task with grouping similar words. With word vectors, we can easily find similarities or dissimilarities using distance measures(such as [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)).
+
+Distributed representation of words in vector space help learning algorithms to get better performance in NLP(Natural Language processing) task with grouping similar words. We can easily find similarities or dissimilarities using distance measures(such as [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)) with word vectors.
 
 But how we can represent words in vector space?
 
@@ -77,7 +78,7 @@ Total loss would be:
 
 |![_config.yml]({{ site.baseurl }}/images/Word2vec/skipgram-with-negative-sampling.png)|
 
-In practice, for training our skip-gram model we need labels, which generate with skip-gram pair and negative sample pairs. For instance, if you have a sentence like "**Shalt not make a machine**" then the label with the target word "make" and with the number of negative samples 2 would be \[1, 0, 0].
+In practice, we need labels for training our skip-gram model, which generates with skip-gram pair and negative sample pairs. For instance, if you have a sentence like “Shalt not make a machine” then the label with the target word “make” and with the number of negative samples 2 would be [1, 0, 0]
 
 # Implementation
 

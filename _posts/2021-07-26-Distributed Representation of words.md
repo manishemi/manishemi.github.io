@@ -88,6 +88,6 @@ For coding concepts, you can visit the [Tensorflow Word2Vec](https://www.tensorf
 
 [Distributed Representations of Words and Phrases and their Compositionality Article](https://arxiv.org/abs/1310.4546)
 
-[cs224n Standford University NLP course](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/index.html)
+[cs224n Stanford University NLP course](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/index.html)
 
 [Tensorflow](https://www.tensorflow.org/tutorials/text/word2vec)

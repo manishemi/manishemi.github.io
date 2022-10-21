@@ -62,4 +62,4 @@ Also, we have two kinds of BERT:
 
 [Jay Alammar web page](http://jalammar.github.io/)
 
-[cs224n Standford University NLP course](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/index.html)
+[cs224n Stanford University NLP course](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/index.html)
